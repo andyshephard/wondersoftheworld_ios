@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF0D913A92562C6DA4971DE188DF837 /* Pods-wondersoftheworld-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B21A096AFBA5A3C46EAE5BB35209A9EF /* Pods-wondersoftheworld-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52CAC84FAAB9B8A466959D0B0786142A /* Pods-wondersoftheworld-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8073005064E80AF8D4C3072ACB7FE9 /* Pods-wondersoftheworld-dummy.m */; };
+		E34B0AE597B1B0F2339CAE52B9BFEFD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		072F0CC0A628D1ED6D77163AE8D45629 /* Pods-wondersoftheworld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wondersoftheworld.debug.xcconfig"; sourceTree = "<group>"; };
+		254FBD3FC01F82B5F8B2DD8D29BF36C6 /* Pods-wondersoftheworld-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wondersoftheworld-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3525C1838BCE7FFB1F21FF28206346B8 /* GCSCardboardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCSCardboardView.h; path = Headers/Public/GCSCardboardView.h; sourceTree = "<group>"; };
+		3F54085E8A29A6E386FA1A99CDACCF5B /* GoogleKitDialogs.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitDialogs.bundle; path = Resources/GoogleKitDialogs.bundle; sourceTree = "<group>"; };
+		48C0BC63B889AF143C287762E36351B3 /* GCSHeadTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCSHeadTransform.h; path = Headers/Public/GCSHeadTransform.h; sourceTree = "<group>"; };
+		61054EF73F70D92E21B892C3DB56FDF4 /* Pods-wondersoftheworld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wondersoftheworld.release.xcconfig"; sourceTree = "<group>"; };
+		61C81F2AE6F397F2C4015710D2B8F4EB /* Pods_wondersoftheworld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wondersoftheworld.framework; path = "Pods-wondersoftheworld.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BFD9D6F874BAA3128D55DE03AFE3C2 /* Pods-wondersoftheworld-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wondersoftheworld-acknowledgements.plist"; sourceTree = "<group>"; };
+		64771139CD35996D7E6CCBD98485C81B /* MaterialTypography.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MaterialTypography.bundle; path = Resources/MaterialTypography.bundle; sourceTree = "<group>"; };
+		6BB76E3A6476B7FDA952C95368A46FCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D670A849ABC550E3A16E8759E56E31E /* GCSCardboardAudioEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCSCardboardAudioEngine.h; path = Headers/Public/GCSCardboardAudioEngine.h; sourceTree = "<group>"; };
+		7F8073005064E80AF8D4C3072ACB7FE9 /* Pods-wondersoftheworld-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wondersoftheworld-dummy.m"; sourceTree = "<group>"; };
+		82FEE6F8E1CC42EC4C4F107903D7FEF1 /* Pods-wondersoftheworld-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wondersoftheworld-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98A7F8A8DE4E1C1ADCB7E4219D7D14F5 /* GCSPanoramaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCSPanoramaView.h; path = Headers/Public/GCSPanoramaView.h; sourceTree = "<group>"; };
+		9DC64B952E629AC747F30F32F203399E /* GCSVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCSVideoView.h; path = Headers/Public/GCSVideoView.h; sourceTree = "<group>"; };
+		9E202B15AAED123DA437DB5B045DFE13 /* libCardboardSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK.a; path = Libraries/libCardboardSDK.a; sourceTree = "<group>"; };
+		A0C409452E6C47342ACE9C7662D292F6 /* GCSWidgetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCSWidgetView.h; path = Headers/Public/GCSWidgetView.h; sourceTree = "<group>"; };
+		B21A096AFBA5A3C46EAE5BB35209A9EF /* Pods-wondersoftheworld-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wondersoftheworld-umbrella.h"; sourceTree = "<group>"; };
+		B9F1D589726997FB2D9D9C208DE36E66 /* Pods-wondersoftheworld-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wondersoftheworld-resources.sh"; sourceTree = "<group>"; };
+		BEAAA68818900E6569DB22D245F8C19E /* GoogleKitCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitCore.bundle; path = Resources/GoogleKitCore.bundle; sourceTree = "<group>"; };
+		CAC7F5BF314039C5F52ED4197F7FBEE2 /* Pods-wondersoftheworld.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-wondersoftheworld.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F86AA3842AEE4DCA9083269059CAE505 /* GoogleKitHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitHUD.bundle; path = Resources/GoogleKitHUD.bundle; sourceTree = "<group>"; };
+		FD68BC806ECED986749062B22A48C05A /* CardboardSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CardboardSDK.bundle; path = Resources/CardboardSDK.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F063838DAD017FC1EDA111602EF9338B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34B0AE597B1B0F2339CAE52B9BFEFD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059C26149F04D1A616006908D6F68D87 /* CardboardSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6D670A849ABC550E3A16E8759E56E31E /* GCSCardboardAudioEngine.h */,
+				3525C1838BCE7FFB1F21FF28206346B8 /* GCSCardboardView.h */,
+				48C0BC63B889AF143C287762E36351B3 /* GCSHeadTransform.h */,
+				98A7F8A8DE4E1C1ADCB7E4219D7D14F5 /* GCSPanoramaView.h */,
+				9DC64B952E629AC747F30F32F203399E /* GCSVideoView.h */,
+				A0C409452E6C47342ACE9C7662D292F6 /* GCSWidgetView.h */,
+				D63FA919042C3917AF6AE6B11696330F /* Frameworks */,
+				95F8B8565498FD7186698A9EB44C7B59 /* Resources */,
+			);
+			name = CardboardSDK;
+			path = CardboardSDK;
+			sourceTree = "<group>";
+		};
+		303DA5D669CD50F4FC4EB9F1010B87BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59D912BB7354E46F016D9EA4EA7C2A93 /* Pods-wondersoftheworld */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		41C8DA0E5B3218982F746240730864A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				059C26149F04D1A616006908D6F68D87 /* CardboardSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59D912BB7354E46F016D9EA4EA7C2A93 /* Pods-wondersoftheworld */ = {
+			isa = PBXGroup;
+			children = (
+				6BB76E3A6476B7FDA952C95368A46FCE /* Info.plist */,
+				CAC7F5BF314039C5F52ED4197F7FBEE2 /* Pods-wondersoftheworld.modulemap */,
+				254FBD3FC01F82B5F8B2DD8D29BF36C6 /* Pods-wondersoftheworld-acknowledgements.markdown */,
+				63BFD9D6F874BAA3128D55DE03AFE3C2 /* Pods-wondersoftheworld-acknowledgements.plist */,
+				7F8073005064E80AF8D4C3072ACB7FE9 /* Pods-wondersoftheworld-dummy.m */,
+				82FEE6F8E1CC42EC4C4F107903D7FEF1 /* Pods-wondersoftheworld-frameworks.sh */,
+				B9F1D589726997FB2D9D9C208DE36E66 /* Pods-wondersoftheworld-resources.sh */,
+				B21A096AFBA5A3C46EAE5BB35209A9EF /* Pods-wondersoftheworld-umbrella.h */,
+				072F0CC0A628D1ED6D77163AE8D45629 /* Pods-wondersoftheworld.debug.xcconfig */,
+				61054EF73F70D92E21B892C3DB56FDF4 /* Pods-wondersoftheworld.release.xcconfig */,
+			);
+			name = "Pods-wondersoftheworld";
+			path = "Target Support Files/Pods-wondersoftheworld";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				41C8DA0E5B3218982F746240730864A2 /* Pods */,
+				C2C1513B6AE68B2F2ECBB4CB0B2DEBEE /* Products */,
+				303DA5D669CD50F4FC4EB9F1010B87BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95F8B8565498FD7186698A9EB44C7B59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD68BC806ECED986749062B22A48C05A /* CardboardSDK.bundle */,
+				BEAAA68818900E6569DB22D245F8C19E /* GoogleKitCore.bundle */,
+				3F54085E8A29A6E386FA1A99CDACCF5B /* GoogleKitDialogs.bundle */,
+				F86AA3842AEE4DCA9083269059CAE505 /* GoogleKitHUD.bundle */,
+				64771139CD35996D7E6CCBD98485C81B /* MaterialTypography.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2C1513B6AE68B2F2ECBB4CB0B2DEBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61C81F2AE6F397F2C4015710D2B8F4EB /* Pods_wondersoftheworld.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63FA919042C3917AF6AE6B11696330F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E202B15AAED123DA437DB5B045DFE13 /* libCardboardSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A23751B28BFFED6FCF36DEED5FE0B3D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF0D913A92562C6DA4971DE188DF837 /* Pods-wondersoftheworld-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02D690AE286A625566E10D2A0E6C53BE /* Pods-wondersoftheworld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1AF555A25E49E0BF4C30027B742623F /* Build configuration list for PBXNativeTarget "Pods-wondersoftheworld" */;
+			buildPhases = (
+				17205173D86DEF08FE58F37FD9DDA815 /* Sources */,
+				F063838DAD017FC1EDA111602EF9338B /* Frameworks */,
+				A23751B28BFFED6FCF36DEED5FE0B3D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-wondersoftheworld";
+			productName = "Pods-wondersoftheworld";
+			productReference = 61C81F2AE6F397F2C4015710D2B8F4EB /* Pods_wondersoftheworld.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C2C1513B6AE68B2F2ECBB4CB0B2DEBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02D690AE286A625566E10D2A0E6C53BE /* Pods-wondersoftheworld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17205173D86DEF08FE58F37FD9DDA815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CAC84FAAB9B8A466959D0B0786142A /* Pods-wondersoftheworld-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C789259E1857AD888EE1EEAFBD27F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61054EF73F70D92E21B892C3DB56FDF4 /* Pods-wondersoftheworld.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-wondersoftheworld/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wondersoftheworld/Pods-wondersoftheworld.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wondersoftheworld;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D38061D15E3561C81F1BFB473D97001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072F0CC0A628D1ED6D77163AE8D45629 /* Pods-wondersoftheworld.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-wondersoftheworld/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wondersoftheworld/Pods-wondersoftheworld.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wondersoftheworld;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1AF555A25E49E0BF4C30027B742623F /* Build configuration list for PBXNativeTarget "Pods-wondersoftheworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38061D15E3561C81F1BFB473D97001D /* Debug */,
+				4C789259E1857AD888EE1EEAFBD27F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

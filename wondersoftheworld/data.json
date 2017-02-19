@@ -1,0 +1,155 @@
+{
+  "categories": [
+    {
+      "title": "Original",
+      "image": "",
+      "index": 0
+    },
+    {
+      "title": "Popular",
+      "image": "",
+      "index": 1
+    },
+    {
+      "title": "American Society of Civil Engineers",
+      "image": "",
+      "index": 2
+    },
+    {
+      "title": "USA Today's New Seven Wonders",
+      "image": "",
+      "index": 3
+    },
+    {
+      "title": "Natural Wonders",
+      "image": "",
+      "index": 4
+    },
+    {
+      "title": "New7Wonders",
+      "image": "",
+      "index": 5
+    },
+    {
+      "title": "New7Wonders of Nature",
+      "image": "",
+      "index": 6
+    },
+    {
+      "title": "New7Wonders Cities",
+      "image": "",
+      "index": 7
+    },
+    {
+      "title": "Seven Wonders of the Underwater World",
+      "image": "",
+      "index": 8
+    },
+    {
+      "title": "Seven Wonders of the Industrial World",
+      "image": "",
+      "index": 9
+    }
+    ],
+  "wonders": [
+    {
+      "categories": [
+        "Original",
+        "New7Wonders"],
+      "constructed": "c. 2580-2560 BC",
+      "description": "The Great Pyramid of Giza (also known as the Pyramid of Khufu or the Pyramid of Cheops) is the oldest and largest of the three pyramids in the Giza pyramid complex bordering what is now El Giza, Egypt. It is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact.\n\nBased on a mark in an interior chamber naming the work gang and a reference to fourth dynasty Egyptian Pharaoh Khufu, Egyptologists believe that the pyramid was built as a tomb over a 10 to 20-year period concluding around 2560 BC. Initially at 146.5 metres (481 feet), the Great Pyramid was the tallest man-made structure in the world for more than 3,800 years. Originally, the Great Pyramid was covered by casing stones that formed a smooth outer surface; what is seen today is the underlying core structure. Some of the casing stones that once covered the structure can still be seen around the base. There have been varying scientific and alternative theories about the Great Pyramid's construction techniques. Most accepted construction hypotheses are based on the idea that it was built by moving huge stones from a quarry and dragging and lifting them into place.\n\nThere are three known chambers inside the Great Pyramid. The lowest chamber is cut into the bedrock upon which the pyramid was built and was unfinished. The so-called Queen's Chamber and King's Chamber are higher up within the pyramid structure. The main part of the Giza complex is a setting of buildings that included two mortuary temples in honour of Khufu (one close to the pyramid and one near the Nile), three smaller pyramids for Khufu's wives, an even smaller 'satellite' pyramid, a raised causeway connecting the two temples, and small mastaba tombs surrounding the pyramid for nobles.",
+      "fullImage": "giza_full",
+      "isManMade": true,
+      "isVR": true,
+      "location": "Giza Necropolis, Egypt\n(29.9792° N, 31.1342° E)",
+      "pageImage": "giza_mini",
+      "popularity": "~ 3,000,000 visitors each year",
+      "title": "Great Pyramid of Giza",
+      "vrMode": "mono"
+    },
+    {
+      "categories": [
+        "Original"],
+      "constructed": "Unknown",
+      "description": "The Hanging Gardens were described as a remarkable feat of engineering: an ascending series of tiered gardens containing all manner of trees, shrubs, and vines. The gardens were said to have looked like a large green mountain constructed of mud bricks.\n\nTraditionally they were said to have been built in the ancient city of Babylon, near present-day Hillah, Babil province, in Iraq. The Babylonian priest Berossus, writing in about 290 BC and quoted later by Josephus, attributed the gardens to the Neo-Babylonian king Nebuchadnezzar II, who ruled between 605 and 562 BC. There are no extant Babylonian texts which mention the gardens, and no definitive archaeological evidence has been found in Babylon.\n\nAccording to one legend, Nebuchadnezzar II built the Hanging Gardens for his Median wife, Queen Amytis, because she missed the green hills and valleys of her homeland. He also built a grand palace that came to be known as \"The Marvel of the Mankind\".\n\nBecause no physical evidence for the Hanging Gardens has been found at Babylon, it has been suggested that they were purely mythical, and the descriptions found in ancient Greek and Roman writers including Strabo, Diodorus Siculus and Quintus Curtius Rufus represent a romantic ideal of an eastern garden. If it did indeed exist, it was destroyed sometime after the first century AD.\n\nStephanie Dalley suggests that the original garden may have been a well-documented one that the Assyrian king Sennacherib (704–681 BC) built in his capital city of Nineveh on the River Tigris, near the modern city of Mosul.",
+      "fullImage": "babylon_full",
+      "isManMade": true,
+      "isVR": true,
+      "location": "Hillah or Nineveh, Iraq\n(32.5355° N 44.4275° E)",
+      "pageImage": "babylon_mini",
+      "popularity": "0 (Location Unknown)",
+      "title": "Hanging Gardens of Babylon",
+      "vrMode": "mono"
+    },
+    {
+      "categories": [
+        "Original"],
+      "constructed": "435 BC",
+      "description": "The Statue of Zeus at Olympia was a giant seated figure, about 13 m (43 ft) tall,[1] made by the Greek sculptor Phidias around 435 BC at the sanctuary of Olympia, Greece, and erected in the Temple of Zeus there. A sculpture of ivory plates and gold panels over a wooden framework, it represented the god Zeus sitting on an elaborate cedar wood throne ornamented with ebony, ivory, gold and precious stones. One of the Seven Wonders of the Ancient World,[2] it was lost and destroyed during the 5th century AD with no copy ever being found, and details of its form are known only from ancient Greek descriptions and representations on coins.",
+      "fullImage": "zeus_full",
+      "isManMade": true,
+      "isVR": false,
+      "location": "Olympia, Greece\n(37°38′16.3″ N 21°37′48″ E)",
+      "pageImage": "zeus_mini",
+      "popularity": "0 (Destroyed)",
+      "title": "Statue of Zeus",
+      "vrMode": ""
+    },
+    {
+      "categories": [
+        "Original"],
+      "constructed": "c. 550BC; Again in 323BC",
+      "description": "The Temple of Artemis or Artemision (Greek: Ἀρτεμίσιον, Turkish: Artemis Tapınağı), also known less precisely as the Temple of Diana, was a Greek temple dedicated to the goddess Artemis. It was located in Ephesus (near the modern town of Selçuk in present-day Turkey). One of the Seven Wonders of the Ancient World, it was completely rebuilt three times before its final destruction in 401 AD.[1] Only foundations and sculptural fragments of the latest of the temples at the site remain.\n\nThe first sanctuary (temenos) antedated the Ionic immigration by many years, and dates to the Bronze Age. Callimachus, in his Hymn to Artemis, attributed it to the Amazons. In the 7th century BC, the old temple was destroyed by a flood. Its reconstruction began around 550 BC, under the Cretan architect Chersiphron and his son Metagenes, at the expense of Croesus of Lydia: the project took 10 years to complete. The temple was destroyed in 356 BC by an act of arson and was again rebuilt, this time as the Wonder.",
+      "fullImage": "artemis_full",
+      "isManMade": true,
+      "isVR": true,
+      "location": "Selçuk, Turkey\n(37°56′59″ N 27°21′50″ E)",
+      "pageImage": "artemis_mini",
+      "popularity": "0 (Destroyed)",
+      "title": "Temple of Artemis at Ephesus",
+      "vrMode": "mono"
+    },
+    {
+      "categories": [
+        "Original"],
+      "constructed": "351BC",
+      "description": "The Mausoleum at Halicarnassus or Tomb of Mausolus[a] (Ancient Greek: Μαυσωλεῖον τῆς Ἁλικαρνασσοῦ; Turkish: Halikarnas Mozolesi) was a tomb built between 353 and 350 BC at Halicarnassus (present Bodrum, Turkey) for Mausolus, a satrap in the Persian Empire, and his sister-wife Artemisia II of Caria. The structure was designed by the Greek architects Satyros and Pythius of Priene.\n\nThe Mausoleum was approximately 45 m (148 ft) in height, and the four sides were adorned with sculptural reliefs, each created by one of four Greek sculptors—Leochares, Bryaxis, Scopas of Paros and Timotheus. The finished structure of the mausoleum was considered to be such an aesthetic triumph that Antipater of Sidon identified it as one of his Seven Wonders of the Ancient World. It was destroyed by successive earthquakes from the 12th to the 15th century, the last surviving of the six destroyed wonders.\n\nThe word mausoleum has now come to be used generically for an above-ground tomb.",
+      "fullImage": "mausoleum_full",
+      "isManMade": true,
+      "isVR": false,
+      "location": "Bodrum, Turkey\n(37.0379° N 27.4241° E)",
+      "pageImage": "mausoleum_mini",
+      "popularity": "0 (Destroyed)",
+      "title": "Mausoleum at Halicarnassus",
+      "vrMode": ""
+    },
+    {
+      "categories": [
+        "Original"],
+      "constructed": "292-280BC",
+      "description": "The Colossus of Rhodes /roʊdz/ (Ancient Greek: ὁ Κολοσσὸς Ῥόδιος ho Kolossòs Rhódios) was a statue of the Greek titan-god of the sun Helios, erected in the city of Rhodes, on the Greek island of the same name, by Chares of Lindos in 280 BC. One of the Seven Wonders of the Ancient World, it was constructed to celebrate Rhodes' victory over the ruler of Cyprus, Antigonus I Monophthalmus, whose son unsuccessfully besieged Rhodes in 305 BC. According to most contemporary descriptions, the Colossus stood approximately 70 cubits, or 33 metres (108 feet) high—the approximate height of the modern Statue of Liberty from feet to crown—making it the tallest statue of the ancient world. It was destroyed during the earthquake of 226 BC, and never rebuilt.\n\nAs of 2015, there are tentative plans to build a new Colossus at Rhodes Harbour, although the actual location of the original remains in dispute.",
+      "fullImage": "colossus_full",
+      "isManMade": true,
+      "isVR": false,
+      "location": "Rhodes, Greece\n(36°27′04″ N 28°13′40″ E)",
+      "pageImage": "colossus_mini",
+      "popularity": "0 (Destroyed)",
+      "title": "Colossus of Rhodes",
+      "vrMode": ""
+    },
+    {
+      "categories": [
+        "Original"],
+      "constructed": "c. 280BC",  
+      "description": "The Lighthouse of Alexandria, sometimes called the Pharos of Alexandria (/ˈfɛərɒs/; Ancient Greek: ὁ Φάρος τῆς Ἀλεξανδρείας, contemporary Koine Greek pronunciation: [ho pʰá.ros teːs a.lek.sandréːaːs]), was a lighthouse built by the Ptolemaic Kingdom between 280 and 247 BC which was between 120 and 137 m (394 and 449 ft) tall.[citation needed] One of the Seven Wonders of the Ancient World, for many centuries it was one of the tallest man-made structures in the world. Badly damaged by three earthquakes between AD 956 and 1323, it then became an abandoned ruin. It was the third longest surviving ancient wonder (after the Mausoleum at Halicarnassus and the extant Great Pyramid of Giza) until 1480, when the last of its remnant stones were used to build the Citadel of Qaitbay on the site. In 1994, French archaeologists discovered some remains of the lighthouse on the floor of Alexandria's Eastern Harbour. The Ministry of State of Antiquities in Egypt has planned, as of late 2015, to turn submerged ruins of ancient Alexandria, including those of the Pharos, into an underwater museum.",
+      "fullImage": "lighthouse_alexandria_full",
+      "isManMade": true,
+      "isVR": false,
+      "location": "Alexandria, Egypt\n(31°12′50″ N 29°53′08″ E)",
+      "pageImage": "lighthouse_alexandria_mini",
+      "popularity": "0 (Destroyed)",
+      "title": "Lighthouse of Alexandria",
+      "vrMode": ""
+    }
+  ]
+}
