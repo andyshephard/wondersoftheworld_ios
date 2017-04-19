@@ -20,11 +20,13 @@ class WOWListingsViewController: UITableViewController {
 		navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 		
 		// Set image as navigation bar title
-		let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 250, height: 44))
-		imageView.contentMode = .scaleAspectFit
-		let image = UIImage(named: "navBarView")
-		imageView.image = image
-		self.navigationItem.titleView = imageView
+//		let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 250, height: 44))
+//		imageView.contentMode = .scaleAspectFit
+//		let image = UIImage(named: "navBarView")
+//		imageView.image = image
+//		self.navigationItem.titleView = imageView
+		
+		self.title = "Listings"
 		
 		// Setup tableView.
 		self.tableView.register(WOWListingsTableViewCell.classNib(), forCellReuseIdentifier: WOWListingsTableViewCell.classReuseIdentifier())
@@ -39,6 +41,14 @@ class WOWListingsViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return WOWDataModel.sharedModel.categories!.count
     }
+	
+	override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+		return 0.0
+	}
+	
+	override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+		return 0.0
+	}
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		
@@ -47,6 +57,7 @@ class WOWListingsViewController: UITableViewController {
 		let cat: WOWCategory = WOWDataModel.sharedModel.categories![indexPath.row]
 		cell.cellImageView.image = UIImage.init(named: cat.image!)
 		cell.cellLabel.text = cat.title!
+		cell.cellSubtitleLabel.text = cat.subtitle!
 
         return cell
     }

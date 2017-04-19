@@ -17,6 +17,8 @@ class WOWWonder: NSObject {
 	var isManMade: Bool?
 	var isVR: Bool?
 	var location: String?
+	var latitude: Double?
+	var longitude: Double?
 	var pageImage: String?
 	var popularity: String?
 	var title: String?
@@ -38,6 +40,8 @@ class WOWWonder: NSObject {
 		self.isManMade = wonderData["isManMade"] as? Bool
 		self.isVR = wonderData["isVR"] as? Bool
 		self.location = wonderData["location"] as? String
+		self.latitude = wonderData["latitude"] as? Double
+		self.longitude = wonderData["longitude"] as? Double
 		self.pageImage = wonderData["pageImage"] as? String
 		self.popularity = wonderData["popularity"] as? String
 		self.title = wonderData["title"] as? String

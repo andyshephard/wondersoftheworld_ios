@@ -26,6 +26,10 @@
 		352AF1301E50ED8C002540C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352AF12E1E50ED8C002540C2 /* Main.storyboard */; };
 		352AF1321E50ED8C002540C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 352AF1311E50ED8C002540C2 /* Assets.xcassets */; };
 		352AF1351E50ED8C002540C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352AF1331E50ED8C002540C2 /* LaunchScreen.storyboard */; };
+		3579B7981E9E668800B59F59 /* WOWMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3579B7971E9E668800B59F59 /* WOWMapViewController.swift */; };
+		3579B79C1E9FA1CA00B59F59 /* WOWSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3579B79B1E9FA1CA00B59F59 /* WOWSettingsViewController.swift */; };
+		3579B79E1E9FA2F000B59F59 /* WOWBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3579B79D1E9FA2F000B59F59 /* WOWBaseTableViewController.swift */; };
+		3579B7A11E9FB13500B59F59 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3579B7A01E9FB13500B59F59 /* UIColor+Hex.swift */; };
 		FBDED4D18F920D6CCFB12224 /* Pods_wondersoftheworld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8994EB95ECCC2310B63885F3 /* Pods_wondersoftheworld.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +57,10 @@
 		352AF1311E50ED8C002540C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		352AF1341E50ED8C002540C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		352AF1361E50ED8C002540C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3579B7971E9E668800B59F59 /* WOWMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOWMapViewController.swift; sourceTree = "<group>"; };
+		3579B79B1E9FA1CA00B59F59 /* WOWSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOWSettingsViewController.swift; sourceTree = "<group>"; };
+		3579B79D1E9FA2F000B59F59 /* WOWBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOWBaseTableViewController.swift; sourceTree = "<group>"; };
+		3579B7A01E9FB13500B59F59 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		8994EB95ECCC2310B63885F3 /* Pods_wondersoftheworld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wondersoftheworld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CC051AFDD866816E9EB2E2 /* Pods-wondersoftheworld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wondersoftheworld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wondersoftheworld/Pods-wondersoftheworld.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,10 +89,9 @@
 		3521F10C1E5348B100B7D1BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3521F1201E58C3A000B7D1BF /* Detail View */,
-				3521F11F1E58C38C00B7D1BF /* Parent Classes */,
-				3521F11E1E58C36700B7D1BF /* Page View */,
-				3521F11D1E58C35400B7D1BF /* Listings */,
+				3579B7991E9FA19B00B59F59 /* Settings Tab */,
+				3579B7951E9E5C8F00B59F59 /* Map Tab */,
+				3579B7941E9E5C7C00B59F59 /* Listings Tab */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				3521F1141E5350CC00B7D1BF /* WOWBaseViewController.swift */,
+				3579B79D1E9FA2F000B59F59 /* WOWBaseTableViewController.swift */,
 			);
 			name = "Parent Classes";
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 		352AF1291E50ED8C002540C2 /* wondersoftheworld */ = {
 			isa = PBXGroup;
 			children = (
+				3579B79F1E9FB0F100B59F59 /* Utilities */,
 				3521F12A1E59CEF200B7D1BF /* Managers */,
 				3521F1251E59C29900B7D1BF /* Classes */,
 				3521F10D1E5348CA00B7D1BF /* Cells */,
@@ -186,6 +195,57 @@
 				3521F1181E5744E000B7D1BF /* wondersoftheworld-Bridging-Header.h */,
 			);
 			path = wondersoftheworld;
+			sourceTree = "<group>";
+		};
+		3579B7941E9E5C7C00B59F59 /* Listings Tab */ = {
+			isa = PBXGroup;
+			children = (
+				3521F1201E58C3A000B7D1BF /* Detail View */,
+				3521F11F1E58C38C00B7D1BF /* Parent Classes */,
+				3521F11E1E58C36700B7D1BF /* Page View */,
+				3521F11D1E58C35400B7D1BF /* Listings */,
+			);
+			name = "Listings Tab";
+			sourceTree = "<group>";
+		};
+		3579B7951E9E5C8F00B59F59 /* Map Tab */ = {
+			isa = PBXGroup;
+			children = (
+				3579B7961E9E5C9600B59F59 /* Map View */,
+			);
+			name = "Map Tab";
+			sourceTree = "<group>";
+		};
+		3579B7961E9E5C9600B59F59 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				3579B7971E9E668800B59F59 /* WOWMapViewController.swift */,
+			);
+			name = "Map View";
+			sourceTree = "<group>";
+		};
+		3579B7991E9FA19B00B59F59 /* Settings Tab */ = {
+			isa = PBXGroup;
+			children = (
+				3579B79A1E9FA1A400B59F59 /* Settings View */,
+			);
+			name = "Settings Tab";
+			sourceTree = "<group>";
+		};
+		3579B79A1E9FA1A400B59F59 /* Settings View */ = {
+			isa = PBXGroup;
+			children = (
+				3579B79B1E9FA1CA00B59F59 /* WOWSettingsViewController.swift */,
+			);
+			name = "Settings View";
+			sourceTree = "<group>";
+		};
+		3579B79F1E9FB0F100B59F59 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3579B7A01E9FB13500B59F59 /* UIColor+Hex.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 		4B34F43FE63D29BBFF1D0515 /* Frameworks */ = {
@@ -299,7 +359,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		ED3C1944031EC6E2D4074BB5 /* [CP] Copy Pods Resources */ = {
@@ -328,15 +388,19 @@
 				3521F11C1E578DCA00B7D1BF /* WOWListingsContainerViewController.swift in Sources */,
 				3521F1221E58E9B400B7D1BF /* WOWDetailHeaderFooterView.swift in Sources */,
 				3521F1121E5348FE00B7D1BF /* WOWListingsTableViewCell.swift in Sources */,
+				3579B7A11E9FB13500B59F59 /* UIColor+Hex.swift in Sources */,
+				3579B79E1E9FA2F000B59F59 /* WOWBaseTableViewController.swift in Sources */,
 				3521F10B1E5348A800B7D1BF /* WOWListingsPageViewController.swift in Sources */,
 				352AF12D1E50ED8C002540C2 /* WOWDetailViewController.swift in Sources */,
 				352AF12B1E50ED8C002540C2 /* AppDelegate.swift in Sources */,
 				3521F1291E59C2BF00B7D1BF /* WOWWonder.swift in Sources */,
 				3521F10F1E5348E400B7D1BF /* WOWBaseTableViewCell.swift in Sources */,
+				3579B79C1E9FA1CA00B59F59 /* WOWSettingsViewController.swift in Sources */,
 				3521F1151E5350CC00B7D1BF /* WOWBaseViewController.swift in Sources */,
 				3521F1171E5350EB00B7D1BF /* WOWListingsPageContentViewController.swift in Sources */,
 				3521F1091E53489000B7D1BF /* WOWListingsViewController.swift in Sources */,
 				3521F1271E59C2B300B7D1BF /* WOWCategory.swift in Sources */,
+				3579B7981E9E668800B59F59 /* WOWMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

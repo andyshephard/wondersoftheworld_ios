@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QuartzCore
 
 protocol WOWListingsPageContentViewControllerDelegate: class {
 	func didTapPageContentViewControllerWithTag(tag: Int)
@@ -21,14 +22,20 @@ class WOWListingsPageContentViewController: WOWBaseViewController {
 	public var tag: Int?
 	
 	@IBOutlet weak var contentImageView: UIImageView!
+	@IBOutlet weak var gradientView: UIView!
 	@IBOutlet weak var contentTitleLabel: UILabel!
+	@IBOutlet weak var contentSubtitleLabel: UILabel!
 	
     override func viewDidLoad() {
         super.viewDidLoad()
-
-		navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 		
-		contentImageView.layer.cornerRadius = 5.0
+		let gradient: CAGradientLayer = CAGradientLayer.init()
+		gradient.frame = CGRect.init(origin: CGPoint.zero, size: gradientView.frame.size)
+		gradient.colors = [UIColor.clear.cgColor, UIColor.init(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.9).cgColor]
+		gradientView.layer.insertSublayer(gradient, at: 0)
+		
+		navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+
 		contentImageView.clipsToBounds = true
 		
 		let tapGesture = UITapGestureRecognizer.init(target: self, action: #selector(didTapPageContentView))

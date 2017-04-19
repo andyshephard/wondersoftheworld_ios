@@ -7,4 +7,6 @@ target 'wondersoftheworld' do
 
   # Pods for wondersoftheworld
   pod 'CardboardSDK'
+  pod 'Mapbox-iOS-SDK'
+  pod 'MapboxGeocoder.swift', :git => 'https://github.com/mapbox/MapboxGeocoder.swift.git'
 end

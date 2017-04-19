@@ -75,4 +75,17 @@ class WOWDataModel: NSObject {
 		return returnedWonders
 	}
 	
+	func wonderWithName(name: String) -> WOWWonder {
+		
+		var returnedWonder: WOWWonder?
+		
+		for wonder: WOWWonder in wonders! {
+			if (wonder.title == name) {
+				returnedWonder = wonder
+				break
+			}
+		}
+		
+		return returnedWonder!
+	}
 }

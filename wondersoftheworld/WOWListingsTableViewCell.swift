@@ -13,12 +13,19 @@ class WOWListingsTableViewCell: WOWBaseTableViewCell {
 	@IBOutlet weak var cellImageView: UIImageView!
 	@IBOutlet weak var cellMaskView: UIView!
 	@IBOutlet weak var cellLabel: UILabel!
+	@IBOutlet weak var cellSubtitleLabel: UILabel!
+	@IBOutlet weak var gradientView: UIView!
 	
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
 		
 		cellLabel.adjustsFontSizeToFitWidth = true
+		
+		let gradient: CAGradientLayer = CAGradientLayer.init()
+		gradient.frame = gradientView.frame
+		gradient.colors = [UIColor.init(colorLiteralRed: 0.0, green: 0.0, blue: 0.0, alpha: 0.4).cgColor, UIColor.clear.cgColor]
+		gradientView.layer.insertSublayer(gradient, at: 0)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

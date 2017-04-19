@@ -58,6 +58,7 @@ class WOWListingsPageViewController: UIPageViewController, WOWListingsPageConten
 			vc.delegate = self
 			vc.contentTitleLabel.text = entry.title
 			vc.contentImageView.image = UIImage.init(named: entry.pageImage!)
+			vc.contentSubtitleLabel.text = entry.desc
 			pages.append(vc)
 		}
 	}

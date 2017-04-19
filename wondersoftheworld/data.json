@@ -1,155 +1,1157 @@
 {
-  "categories": [
+	"categories": [
+				   {
+				   "title": "Original",
+				   "subtitle": "The classic seven wonders",
+				   "image": "listing_gizaPyramid",
+				   "index": 0
+				   },
+				   {
+				   "title": "Popular",
+				   "subtitle": "",
+				   "image": "listing_colosseum",
+				   "index": 1
+				   },
+				   {
+				   "title": "American Society of Civil Engineers",
+				   "subtitle": "The \"greatest civil engineering achievements of the 20th century\"",
+				   "image": "listing_ggBridge",
+				   "index": 2
+				   },
+				   {
+				   "title": "USA Today's New Seven Wonders",
+				   "subtitle": "A new list of New Seven Wonders as chosen by six judges",
+				   "image": "listing_Jerusalem",
+				   "index": 3
+				   },
+				   {
+				   "title": "Seven Natural Wonders of the World",
+				   "subtitle": "A list of seven natural wonders of the world",
+				   "image": "listing_barrierReef",
+				   "index": 4
+				   },
+				   {
+				   "title": "New7Wonders",
+				   "subtitle": "In 2001 an initiative was started by the Swiss corporation New7Wonders Foundation to choose the New7Wonders of the World from a selection of 200 existing monuments.",
+				   "image": "listing_tajMahal",
+				   "index": 5
+				   },
+				   {
+				   "title": "New7Wonders of Nature",
+				   "subtitle": "A contemporary effort to create a list of seven natural wonders chosen through a global poll",
+				   "image": "listing_halongBay",
+				   "index": 6
+				   },
+				   {
+				   "title": "New7Wonders Cities",
+				   "subtitle": "The third global vote organized by New7Wonders",
+				   "image": "listing_doha",
+				   "index": 7
+				   },
+				   {
+				   "title": "Seven Wonders of the Underwater World",
+				   "subtitle": "A list drawn up by CEDAM International, an American-based non-profit group for divers, dedicated to ocean preservation and research",
+				   "image": "listing_lakeBaikal",
+				   "index": 8
+				   },
+				   {
+				   "title": "Seven Wonders of the Industrial World",
+				   "subtitle": "British author Deborah Cadbury wrote Seven Wonders of the Industrial World, a book telling the stories of seven great feats of engineering of the 19th and early 20th centuries.",
+				   "image": "listing_brooklynBridge",
+				   "index": 9
+				   }
+				   ],
+	"wonders": [
     {
-      "title": "Original",
-      "image": "",
-      "index": 0
+				"categories": [
+							   "Original",
+							   "New7Wonders"],
+				"constructed": "c. 2580-2560 BC",
+				"description": "The Great Pyramid of Giza (also known as the Pyramid of Khufu or the Pyramid of Cheops) is the oldest and largest of the three pyramids in the Giza pyramid complex bordering what is now El Giza, Egypt. It is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact.\n\nBased on a mark in an interior chamber naming the work gang and a reference to fourth dynasty Egyptian Pharaoh Khufu, Egyptologists believe that the pyramid was built as a tomb over a 10 to 20-year period concluding around 2560 BC. Initially at 146.5 metres (481 feet), the Great Pyramid was the tallest man-made structure in the world for more than 3,800 years. Originally, the Great Pyramid was covered by casing stones that formed a smooth outer surface; what is seen today is the underlying core structure. Some of the casing stones that once covered the structure can still be seen around the base. There have been varying scientific and alternative theories about the Great Pyramid's construction techniques. Most accepted construction hypotheses are based on the idea that it was built by moving huge stones from a quarry and dragging and lifting them into place.\n\nThere are three known chambers inside the Great Pyramid. The lowest chamber is cut into the bedrock upon which the pyramid was built and was unfinished. The so-called Queen's Chamber and King's Chamber are higher up within the pyramid structure. The main part of the Giza complex is a setting of buildings that included two mortuary temples in honour of Khufu (one close to the pyramid and one near the Nile), three smaller pyramids for Khufu's wives, an even smaller 'satellite' pyramid, a raised causeway connecting the two temples, and small mastaba tombs surrounding the pyramid for nobles.",
+				"fullImage": "giza_full",
+				"isManMade": true,
+				"isVR": true,
+				"location": "Giza Necropolis, Egypt",
+				"latitude": 29.9792,
+				"longitude": 31.1342,
+				"pageImage": "giza_mini",
+				"popularity": "~ 3,000,000 visitors each year",
+				"title": "Great Pyramid of Giza",
+				"vrMode": "mono"
     },
     {
-      "title": "Popular",
-      "image": "",
-      "index": 1
+				"categories": [
+							   "Original"],
+				"constructed": "Unknown",
+				"description": "The Hanging Gardens were described as a remarkable feat of engineering: an ascending series of tiered gardens containing all manner of trees, shrubs, and vines. The gardens were said to have looked like a large green mountain constructed of mud bricks.\n\nTraditionally they were said to have been built in the ancient city of Babylon, near present-day Hillah, Babil province, in Iraq. The Babylonian priest Berossus, writing in about 290 BC and quoted later by Josephus, attributed the gardens to the Neo-Babylonian king Nebuchadnezzar II, who ruled between 605 and 562 BC. There are no extant Babylonian texts which mention the gardens, and no definitive archaeological evidence has been found in Babylon.\n\nAccording to one legend, Nebuchadnezzar II built the Hanging Gardens for his Median wife, Queen Amytis, because she missed the green hills and valleys of her homeland. He also built a grand palace that came to be known as \"The Marvel of the Mankind\".\n\nBecause no physical evidence for the Hanging Gardens has been found at Babylon, it has been suggested that they were purely mythical, and the descriptions found in ancient Greek and Roman writers including Strabo, Diodorus Siculus and Quintus Curtius Rufus represent a romantic ideal of an eastern garden. If it did indeed exist, it was destroyed sometime after the first century AD.\n\nStephanie Dalley suggests that the original garden may have been a well-documented one that the Assyrian king Sennacherib (704–681 BC) built in his capital city of Nineveh on the River Tigris, near the modern city of Mosul.",
+				"fullImage": "babylon_full",
+				"isManMade": true,
+				"isVR": true,
+				"location": "Hillah or Nineveh, Iraq",
+				"latitude": 32.5355,
+				"longitude": 44.4275,
+				"pageImage": "babylon_mini",
+				"popularity": "0 (Location Unknown)",
+				"title": "Hanging Gardens of Babylon",
+				"vrMode": "mono"
     },
     {
-      "title": "American Society of Civil Engineers",
-      "image": "",
-      "index": 2
+				"categories": [
+							   "Original"],
+				"constructed": "435 BC",
+				"description": "The Statue of Zeus at Olympia was a giant seated figure, about 13 m (43 ft) tall,[1] made by the Greek sculptor Phidias around 435 BC at the sanctuary of Olympia, Greece, and erected in the Temple of Zeus there. A sculpture of ivory plates and gold panels over a wooden framework, it represented the god Zeus sitting on an elaborate cedar wood throne ornamented with ebony, ivory, gold and precious stones. One of the Seven Wonders of the Ancient World,[2] it was lost and destroyed during the 5th century AD with no copy ever being found, and details of its form are known only from ancient Greek descriptions and representations on coins.",
+				"fullImage": "zeus_full",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Olympia, Greece",
+				"latitude": 37.6385,
+				"longitude": 21.6299,
+				"pageImage": "zeus_mini",
+				"popularity": "0 (Destroyed)",
+				"title": "Statue of Zeus",
+				"vrMode": ""
     },
     {
-      "title": "USA Today's New Seven Wonders",
-      "image": "",
-      "index": 3
+				"categories": [
+							   "Original"],
+				"constructed": "c. 550BC; Again in 323BC",
+				"description": "The Temple of Artemis or Artemision (Greek: Ἀρτεμίσιον, Turkish: Artemis Tapınağı), also known less precisely as the Temple of Diana, was a Greek temple dedicated to the goddess Artemis. It was located in Ephesus (near the modern town of Selçuk in present-day Turkey). One of the Seven Wonders of the Ancient World, it was completely rebuilt three times before its final destruction in 401 AD.[1] Only foundations and sculptural fragments of the latest of the temples at the site remain.\n\nThe first sanctuary (temenos) antedated the Ionic immigration by many years, and dates to the Bronze Age. Callimachus, in his Hymn to Artemis, attributed it to the Amazons. In the 7th century BC, the old temple was destroyed by a flood. Its reconstruction began around 550 BC, under the Cretan architect Chersiphron and his son Metagenes, at the expense of Croesus of Lydia: the project took 10 years to complete. The temple was destroyed in 356 BC by an act of arson and was again rebuilt, this time as the Wonder.",
+				"fullImage": "artemis_full",
+				"isManMade": true,
+				"isVR": true,
+				"location": "Selçuk, Turkey",
+				"latitude": 37.9508,
+				"longitude": 27.3700,
+				"pageImage": "artemis_mini",
+				"popularity": "0 (Destroyed)",
+				"title": "Temple of Artemis at Ephesus",
+				"vrMode": "mono"
     },
     {
-      "title": "Natural Wonders",
-      "image": "",
-      "index": 4
+				"categories": [
+							   "Original"],
+				"constructed": "351BC",
+				"description": "The Mausoleum at Halicarnassus or Tomb of Mausolus[a] (Ancient Greek: Μαυσωλεῖον τῆς Ἁλικαρνασσοῦ; Turkish: Halikarnas Mozolesi) was a tomb built between 353 and 350 BC at Halicarnassus (present Bodrum, Turkey) for Mausolus, a satrap in the Persian Empire, and his sister-wife Artemisia II of Caria. The structure was designed by the Greek architects Satyros and Pythius of Priene.\n\nThe Mausoleum was approximately 45 m (148 ft) in height, and the four sides were adorned with sculptural reliefs, each created by one of four Greek sculptors—Leochares, Bryaxis, Scopas of Paros and Timotheus. The finished structure of the mausoleum was considered to be such an aesthetic triumph that Antipater of Sidon identified it as one of his Seven Wonders of the Ancient World. It was destroyed by successive earthquakes from the 12th to the 15th century, the last surviving of the six destroyed wonders.\n\nThe word mausoleum has now come to be used generically for an above-ground tomb.",
+				"fullImage": "mausoleum_full",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Bodrum, Turkey",
+				"latitude": 37.0379,
+				"longitude": 27.4241,
+				"pageImage": "mausoleum_mini",
+				"popularity": "0 (Destroyed)",
+				"title": "Mausoleum at Halicarnassus",
+				"vrMode": ""
     },
     {
-      "title": "New7Wonders",
-      "image": "",
-      "index": 5
+				"categories": [
+							   "Original"],
+				"constructed": "292-280BC",
+				"description": "The Colossus of Rhodes /roʊdz/ (Ancient Greek: ὁ Κολοσσὸς Ῥόδιος ho Kolossòs Rhódios) was a statue of the Greek titan-god of the sun Helios, erected in the city of Rhodes, on the Greek island of the same name, by Chares of Lindos in 280 BC. One of the Seven Wonders of the Ancient World, it was constructed to celebrate Rhodes' victory over the ruler of Cyprus, Antigonus I Monophthalmus, whose son unsuccessfully besieged Rhodes in 305 BC. According to most contemporary descriptions, the Colossus stood approximately 70 cubits, or 33 metres (108 feet) high—the approximate height of the modern Statue of Liberty from feet to crown—making it the tallest statue of the ancient world. It was destroyed during the earthquake of 226 BC, and never rebuilt.\n\nAs of 2015, there are tentative plans to build a new Colossus at Rhodes Harbour, although the actual location of the original remains in dispute.",
+				"fullImage": "colossus_full",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Rhodes, Greece",
+				"latitude": 36.4511,
+				"longitude": 28.2258,
+				"pageImage": "colossus_mini",
+				"popularity": "0 (Destroyed)",
+				"title": "Colossus of Rhodes",
+				"vrMode": ""
     },
     {
-      "title": "New7Wonders of Nature",
-      "image": "",
-      "index": 6
+				"categories": [
+							   "Original"],
+				"constructed": "c. 280BC",
+				"description": "The Lighthouse of Alexandria, sometimes called the Pharos of Alexandria (/ˈfɛərɒs/; Ancient Greek: ὁ Φάρος τῆς Ἀλεξανδρείας, contemporary Koine Greek pronunciation: [ho pʰá.ros teːs a.lek.sandréːaːs]), was a lighthouse built by the Ptolemaic Kingdom between 280 and 247 BC which was between 120 and 137 m (394 and 449 ft) tall.[citation needed] One of the Seven Wonders of the Ancient World, for many centuries it was one of the tallest man-made structures in the world. Badly damaged by three earthquakes between AD 956 and 1323, it then became an abandoned ruin. It was the third longest surviving ancient wonder (after the Mausoleum at Halicarnassus and the extant Great Pyramid of Giza) until 1480, when the last of its remnant stones were used to build the Citadel of Qaitbay on the site. In 1994, French archaeologists discovered some remains of the lighthouse on the floor of Alexandria's Eastern Harbour. The Ministry of State of Antiquities in Egypt has planned, as of late 2015, to turn submerged ruins of ancient Alexandria, including those of the Pharos, into an underwater museum.",
+				"fullImage": "lighthouse_alexandria_full",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Alexandria, Egypt",
+				"latitude": 31.1545,
+				"longitude": 29.84587,
+				"pageImage": "lighthouse_alexandria_mini",
+				"popularity": "0 (Destroyed)",
+				"title": "Lighthouse of Alexandria",
+				"vrMode": ""
     },
-    {
-      "title": "New7Wonders Cities",
-      "image": "",
-      "index": 7
-    },
-    {
-      "title": "Seven Wonders of the Underwater World",
-      "image": "",
-      "index": 8
-    },
-    {
-      "title": "Seven Wonders of the Industrial World",
-      "image": "",
-      "index": 9
-    }
-    ],
-  "wonders": [
-    {
-      "categories": [
-        "Original",
-        "New7Wonders"],
-      "constructed": "c. 2580-2560 BC",
-      "description": "The Great Pyramid of Giza (also known as the Pyramid of Khufu or the Pyramid of Cheops) is the oldest and largest of the three pyramids in the Giza pyramid complex bordering what is now El Giza, Egypt. It is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact.\n\nBased on a mark in an interior chamber naming the work gang and a reference to fourth dynasty Egyptian Pharaoh Khufu, Egyptologists believe that the pyramid was built as a tomb over a 10 to 20-year period concluding around 2560 BC. Initially at 146.5 metres (481 feet), the Great Pyramid was the tallest man-made structure in the world for more than 3,800 years. Originally, the Great Pyramid was covered by casing stones that formed a smooth outer surface; what is seen today is the underlying core structure. Some of the casing stones that once covered the structure can still be seen around the base. There have been varying scientific and alternative theories about the Great Pyramid's construction techniques. Most accepted construction hypotheses are based on the idea that it was built by moving huge stones from a quarry and dragging and lifting them into place.\n\nThere are three known chambers inside the Great Pyramid. The lowest chamber is cut into the bedrock upon which the pyramid was built and was unfinished. The so-called Queen's Chamber and King's Chamber are higher up within the pyramid structure. The main part of the Giza complex is a setting of buildings that included two mortuary temples in honour of Khufu (one close to the pyramid and one near the Nile), three smaller pyramids for Khufu's wives, an even smaller 'satellite' pyramid, a raised causeway connecting the two temples, and small mastaba tombs surrounding the pyramid for nobles.",
-      "fullImage": "giza_full",
-      "isManMade": true,
-      "isVR": true,
-      "location": "Giza Necropolis, Egypt\n(29.9792° N, 31.1342° E)",
-      "pageImage": "giza_mini",
-      "popularity": "~ 3,000,000 visitors each year",
-      "title": "Great Pyramid of Giza",
-      "vrMode": "mono"
-    },
-    {
-      "categories": [
-        "Original"],
-      "constructed": "Unknown",
-      "description": "The Hanging Gardens were described as a remarkable feat of engineering: an ascending series of tiered gardens containing all manner of trees, shrubs, and vines. The gardens were said to have looked like a large green mountain constructed of mud bricks.\n\nTraditionally they were said to have been built in the ancient city of Babylon, near present-day Hillah, Babil province, in Iraq. The Babylonian priest Berossus, writing in about 290 BC and quoted later by Josephus, attributed the gardens to the Neo-Babylonian king Nebuchadnezzar II, who ruled between 605 and 562 BC. There are no extant Babylonian texts which mention the gardens, and no definitive archaeological evidence has been found in Babylon.\n\nAccording to one legend, Nebuchadnezzar II built the Hanging Gardens for his Median wife, Queen Amytis, because she missed the green hills and valleys of her homeland. He also built a grand palace that came to be known as \"The Marvel of the Mankind\".\n\nBecause no physical evidence for the Hanging Gardens has been found at Babylon, it has been suggested that they were purely mythical, and the descriptions found in ancient Greek and Roman writers including Strabo, Diodorus Siculus and Quintus Curtius Rufus represent a romantic ideal of an eastern garden. If it did indeed exist, it was destroyed sometime after the first century AD.\n\nStephanie Dalley suggests that the original garden may have been a well-documented one that the Assyrian king Sennacherib (704–681 BC) built in his capital city of Nineveh on the River Tigris, near the modern city of Mosul.",
-      "fullImage": "babylon_full",
-      "isManMade": true,
-      "isVR": true,
-      "location": "Hillah or Nineveh, Iraq\n(32.5355° N 44.4275° E)",
-      "pageImage": "babylon_mini",
-      "popularity": "0 (Location Unknown)",
-      "title": "Hanging Gardens of Babylon",
-      "vrMode": "mono"
-    },
-    {
-      "categories": [
-        "Original"],
-      "constructed": "435 BC",
-      "description": "The Statue of Zeus at Olympia was a giant seated figure, about 13 m (43 ft) tall,[1] made by the Greek sculptor Phidias around 435 BC at the sanctuary of Olympia, Greece, and erected in the Temple of Zeus there. A sculpture of ivory plates and gold panels over a wooden framework, it represented the god Zeus sitting on an elaborate cedar wood throne ornamented with ebony, ivory, gold and precious stones. One of the Seven Wonders of the Ancient World,[2] it was lost and destroyed during the 5th century AD with no copy ever being found, and details of its form are known only from ancient Greek descriptions and representations on coins.",
-      "fullImage": "zeus_full",
-      "isManMade": true,
-      "isVR": false,
-      "location": "Olympia, Greece\n(37°38′16.3″ N 21°37′48″ E)",
-      "pageImage": "zeus_mini",
-      "popularity": "0 (Destroyed)",
-      "title": "Statue of Zeus",
-      "vrMode": ""
-    },
-    {
-      "categories": [
-        "Original"],
-      "constructed": "c. 550BC; Again in 323BC",
-      "description": "The Temple of Artemis or Artemision (Greek: Ἀρτεμίσιον, Turkish: Artemis Tapınağı), also known less precisely as the Temple of Diana, was a Greek temple dedicated to the goddess Artemis. It was located in Ephesus (near the modern town of Selçuk in present-day Turkey). One of the Seven Wonders of the Ancient World, it was completely rebuilt three times before its final destruction in 401 AD.[1] Only foundations and sculptural fragments of the latest of the temples at the site remain.\n\nThe first sanctuary (temenos) antedated the Ionic immigration by many years, and dates to the Bronze Age. Callimachus, in his Hymn to Artemis, attributed it to the Amazons. In the 7th century BC, the old temple was destroyed by a flood. Its reconstruction began around 550 BC, under the Cretan architect Chersiphron and his son Metagenes, at the expense of Croesus of Lydia: the project took 10 years to complete. The temple was destroyed in 356 BC by an act of arson and was again rebuilt, this time as the Wonder.",
-      "fullImage": "artemis_full",
-      "isManMade": true,
-      "isVR": true,
-      "location": "Selçuk, Turkey\n(37°56′59″ N 27°21′50″ E)",
-      "pageImage": "artemis_mini",
-      "popularity": "0 (Destroyed)",
-      "title": "Temple of Artemis at Ephesus",
-      "vrMode": "mono"
-    },
-    {
-      "categories": [
-        "Original"],
-      "constructed": "351BC",
-      "description": "The Mausoleum at Halicarnassus or Tomb of Mausolus[a] (Ancient Greek: Μαυσωλεῖον τῆς Ἁλικαρνασσοῦ; Turkish: Halikarnas Mozolesi) was a tomb built between 353 and 350 BC at Halicarnassus (present Bodrum, Turkey) for Mausolus, a satrap in the Persian Empire, and his sister-wife Artemisia II of Caria. The structure was designed by the Greek architects Satyros and Pythius of Priene.\n\nThe Mausoleum was approximately 45 m (148 ft) in height, and the four sides were adorned with sculptural reliefs, each created by one of four Greek sculptors—Leochares, Bryaxis, Scopas of Paros and Timotheus. The finished structure of the mausoleum was considered to be such an aesthetic triumph that Antipater of Sidon identified it as one of his Seven Wonders of the Ancient World. It was destroyed by successive earthquakes from the 12th to the 15th century, the last surviving of the six destroyed wonders.\n\nThe word mausoleum has now come to be used generically for an above-ground tomb.",
-      "fullImage": "mausoleum_full",
-      "isManMade": true,
-      "isVR": false,
-      "location": "Bodrum, Turkey\n(37.0379° N 27.4241° E)",
-      "pageImage": "mausoleum_mini",
-      "popularity": "0 (Destroyed)",
-      "title": "Mausoleum at Halicarnassus",
-      "vrMode": ""
-    },
-    {
-      "categories": [
-        "Original"],
-      "constructed": "292-280BC",
-      "description": "The Colossus of Rhodes /roʊdz/ (Ancient Greek: ὁ Κολοσσὸς Ῥόδιος ho Kolossòs Rhódios) was a statue of the Greek titan-god of the sun Helios, erected in the city of Rhodes, on the Greek island of the same name, by Chares of Lindos in 280 BC. One of the Seven Wonders of the Ancient World, it was constructed to celebrate Rhodes' victory over the ruler of Cyprus, Antigonus I Monophthalmus, whose son unsuccessfully besieged Rhodes in 305 BC. According to most contemporary descriptions, the Colossus stood approximately 70 cubits, or 33 metres (108 feet) high—the approximate height of the modern Statue of Liberty from feet to crown—making it the tallest statue of the ancient world. It was destroyed during the earthquake of 226 BC, and never rebuilt.\n\nAs of 2015, there are tentative plans to build a new Colossus at Rhodes Harbour, although the actual location of the original remains in dispute.",
-      "fullImage": "colossus_full",
-      "isManMade": true,
-      "isVR": false,
-      "location": "Rhodes, Greece\n(36°27′04″ N 28°13′40″ E)",
-      "pageImage": "colossus_mini",
-      "popularity": "0 (Destroyed)",
-      "title": "Colossus of Rhodes",
-      "vrMode": ""
-    },
-    {
-      "categories": [
-        "Original"],
-      "constructed": "c. 280BC",  
-      "description": "The Lighthouse of Alexandria, sometimes called the Pharos of Alexandria (/ˈfɛərɒs/; Ancient Greek: ὁ Φάρος τῆς Ἀλεξανδρείας, contemporary Koine Greek pronunciation: [ho pʰá.ros teːs a.lek.sandréːaːs]), was a lighthouse built by the Ptolemaic Kingdom between 280 and 247 BC which was between 120 and 137 m (394 and 449 ft) tall.[citation needed] One of the Seven Wonders of the Ancient World, for many centuries it was one of the tallest man-made structures in the world. Badly damaged by three earthquakes between AD 956 and 1323, it then became an abandoned ruin. It was the third longest surviving ancient wonder (after the Mausoleum at Halicarnassus and the extant Great Pyramid of Giza) until 1480, when the last of its remnant stones were used to build the Citadel of Qaitbay on the site. In 1994, French archaeologists discovered some remains of the lighthouse on the floor of Alexandria's Eastern Harbour. The Ministry of State of Antiquities in Egypt has planned, as of late 2015, to turn submerged ruins of ancient Alexandria, including those of the Pharos, into an underwater museum.",
-      "fullImage": "lighthouse_alexandria_full",
-      "isManMade": true,
-      "isVR": false,
-      "location": "Alexandria, Egypt\n(31°12′50″ N 29°53′08″ E)",
-      "pageImage": "lighthouse_alexandria_mini",
-      "popularity": "0 (Destroyed)",
-      "title": "Lighthouse of Alexandria",
-      "vrMode": ""
-    }
-  ]
+				{
+				"categories": [
+							   "Popular"],
+				"constructed": "3000 BC to 2000 BC",
+				"description": "Stonehenge is a prehistoric monument in Wiltshire, England, 2 miles (3 km) west of Amesbury and 8 miles (13 km) north of Salisbury. Stonehenge consists of ring of standing stones, with each standing stone around 4.1 metres (13 ft) high, 2.1 metres (6 ft 11 in) wide and weighing around 25 tons. The stones are set within earthworks in the middle of the most dense complex of Neolithic and Bronze Age monuments in England, including several hundred burial mounds.\n\nArchaeologists believe it was constructed from 3000 BC to 2000 BC. The surrounding circular earth bank and ditch, which constitute the earliest phase of the monument, have been dated to about 3100 BC. Radiocarbon dating suggests that the first bluestones were raised between 2400 and 2200 BC, although they may have been at the site as early as 3000 BC.\n\nOne of the most famous landmarks in the UK, Stonehenge is regarded as a British cultural icon. It has been a legally protected Scheduled Ancient Monument since 1882 when legislation to protect historic monuments was first successfully introduced in Britain. The site and its surroundings were added to UNESCO's list of World Heritage Sites in 1986. Stonehenge is owned by the Crown and managed by English Heritage; the surrounding land is owned by the National Trust.\n\nStonehenge could have been a burial ground from its earliest beginnings. Deposits containing human bone date from as early as 3000 BC, when the ditch and bank were first dug, and continued for at least another five hundred years.",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Wiltshire, England",
+				"latitude": 51.1789,
+				"longitude": -1.8262,
+				"pageImage": "stonehenge_mini",
+				"popularity": "~ 3,000,000 visitors each year",
+				"title": "Stonehenge",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Popular", "New7Wonders"],
+				"constructed": "70–80 AD",
+				"description": "The Colosseum or Coliseum (/kɒləˈsiːəm/ kol-ə-see-əm), also known as the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aŋfiteˈaːtro ˈflaːvjo] or Colosseo [kolosˈsɛːo]), is an oval amphitheatre in the centre of the city of Rome, Italy. Built of concrete and sand, it is the largest amphitheatre ever built. The Colosseum is situated just east of the Roman Forum. Construction began under the emperor Vespasian in AD 72, and was completed in AD 80 under his successor and heir Titus. Further modifications were made during the reign of Domitian (81–96). These three emperors are known as the Flavian dynasty, and the amphitheatre was named in Latin for its association with their family name (Flavius).\n\nThe Colosseum could hold, it is estimated, between 50,000 and 80,000 spectators, having an average audience of some 65,000; it was used for gladiatorial contests and public spectacles such as mock sea battles (for only a short time as the hypogeum was soon filled in with mechanisms to support the other activities), animal hunts, executions, re-enactments of famous battles, and dramas based on Classical mythology. The building ceased to be used for entertainment in the early medieval era. It was later reused for such purposes as housing, workshops, quarters for a religious order, a fortress, a quarry, and a Christian shrine.\n\nAlthough partially ruined because of damage caused by earthquakes and stone-robbers, the Colosseum is still an iconic symbol of Imperial Rome. It is one of Rome's most popular tourist attractions and also has links to the Roman Catholic Church, as each Good Friday the Pope leads a torchlit \"Way of the Cross\" procession that starts in the area around the Colosseum.\n\nThe Colosseum is also depicted on the Italian version of the five-cent euro coin.\n\nThe Colosseum's original Latin name was Amphitheatrum Flavium, often anglicized as Flavian Amphitheatre. The building was constructed by emperors of the Flavian dynasty, following the reign of Nero. This name is still used in modern English, but generally the structure is better known as the Colosseum. In antiquity, Romans may have referred to the Colosseum by the unofficial name Amphitheatrum Caesareum (with Caesareum an adjective pertaining to the title Caesar), but this name may have been strictly poetic as it was not exclusive to the Colosseum; Vespasian and Titus, builders of the Colosseum, also constructed an amphitheater of the same name in Puteoli (modern Pozzuoli).\n\nThe name Colosseum has long been believed to be derived from a colossal statue of Nero nearby (the statue of Nero was named after the Colossus of Rhodes).[citation needed] This statue was later remodeled by Nero's successors into the likeness of Helios (Sol) or Apollo, the sun god, by adding the appropriate solar crown. Nero's head was also replaced several times with the heads of succeeding emperors. Despite its pagan links, the statue remained standing well into the medieval era and was credited with magical powers. It came to be seen as an iconic symbol of the permanence of Rome.\n\nIn the 8th century, a famous epigram attributed to the Venerable Bede celebrated the symbolic significance of the statue in a prophecy that is variously quoted: Quamdiu stat Colisæus, stat et Roma; quando cadet colisæus, cadet et Roma; quando cadet Roma, cadet et mundus (\"as long as the Colossus stands, so shall Rome; when the Colossus falls, Rome shall fall; when Rome falls, so falls the world\"). This is often mistranslated to refer to the Colosseum rather than the Colossus (as in, for instance, Byron's poem Childe Harold's Pilgrimage). However, at the time that the Pseudo-Bede wrote, the masculine noun coliseus was applied to the statue rather than to what was still known as the Flavian amphitheatre.\n\nThe Colossus did eventually fall, possibly being pulled down to reuse its bronze. By the year 1000 the name \"Colosseum\" had been coined to refer to the amphitheatre. The statue itself was largely forgotten and only its base survives, situated between the Colosseum and the nearby Temple of Venus and Roma.\n\nThe name further evolved to Coliseum during the Middle Ages. In Italy, the amphitheatre is still known as il Colosseo, and other Romance languages have come to use similar forms such as Coloseumul (Romanian), le Colisée (French), el Coliseo (Spanish) and o Coliseu (Portuguese).",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Rome, Italy",
+				"latitude": 41.8902,
+				"longitude": 12.4922,
+				"pageImage": "listing_colosseum",
+				"popularity": "4.2 million visits each year",
+				"title": "Colosseum",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Popular"],
+				"constructed": "2nd century AD",
+				"description": "The catacombs of Kom Kom El Shoqafa (meaning \"Mound of Shards\") is a historical archaeological site located in Alexandria, Egypt and is considered one of the Seven Wonders of the Middle Ages.\n\nThe necropolis consists of a series of Alexandrian tombs, statues and archaeological objects of the Pharaonic funeral cult with Hellenistic and early Imperial Roman influences. Due to the time period, many of the features of the catacombs of Kom El Shoqafa merge Roman, Greek and Egyptian cultural points; some statues are Egyptian in style, yet bear Roman clothes and hair style whilst other features share a similar style. A circular staircase, which was often used to transport deceased bodies down the middle of it, leads down into the tombs that were tunneled into the bedrock during the age of the Antonine emperors (2nd century AD). The facility was then used as a burial chamber from the 2nd century to the 4th century, before being rediscovered in 1900 when a donkey accidentally fell into the access shaft. To date, three sarcophagi have been found, along with other human and animal remains which were added later. It is believed that the catacombs were only intended for a single family, but it is unclear why the site was expanded in order to house numerous other individuals.\n\nAnother feature of the catacombs is the Hall of Caracalla, which contains the bones of young Christian men massacred by order of the emperor Caracalla in 215 AD.",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Alexandria, Egypt",
+				"latitude": 31.1793,
+				"longitude": 29.8932,
+				"pageImage": "catacombs_mini",
+				"popularity": "",
+				"title": "Catacombs of Kom el Shoqafa",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Popular", "New7Wonders"],
+				"constructed": "220–206 BC",
+				"description": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe. Several walls were being built as early as the 7th century BC; these, later joined together and made bigger and stronger, are now collectively referred to as the Great Wall. Especially famous is the wall built 220–206 BC by Qin Shi Huang, the first Emperor of China. Little of that wall remains. Since then, the Great Wall has been rebuilt, maintained, and enhanced; the majority of the existing wall is from the Ming Dynasty (1368–1644).\n\nOther purposes of the Great Wall have included border controls, allowing the imposition of duties on goods transported along the Silk Road, regulation or encouragement of trade and the control of immigration and emigration. Furthermore, the defensive characteristics of the Great Wall were enhanced by the construction of watch towers, troop barracks, garrison stations, signaling capabilities through the means of smoke or fire, and the fact that the path of the Great Wall also served as a transportation corridor.\n\nThe Great Wall stretches from Dandong in the east to Lop Lake in the west, along an arc that roughly delineates the southern edge of Inner Mongolia. A comprehensive archaeological survey, using advanced technologies, has concluded that the Ming walls measure 8,850 km (5,500 mi). This is made up of 6,259 km (3,889 mi) sections of actual wall, 359 km (223 mi) of trenches and 2,232 km (1,387 mi) of natural defensive barriers such as hills and rivers.[4] Another archaeological survey found that the entire wall with all of its branches measure out to be 21,196 km (13,171 mi).",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "China",
+				"latitude": 40.4319,
+				"longitude": 116.5704,
+				"pageImage": "great_wall_mini",
+				"popularity": "10,720,000 visitors annually",
+				"title": "Great Wall of China",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Popular"],
+				"constructed": "",
+				"description": "The Porcelain Tower of Nanjing (Chinese: 琉璃塔; pinyin: Liúlí tǎ), part of the former Bao'en Temple (Chinese: 報恩寺; pinyin: Bao'en Si; literally: \"Temple of Repaid Gratitude\"), is a historical site located on the south bank of external Qinhuai River in Nanjing, China. It was a pagoda constructed in the 15th century during the Ming Dynasty, but was mostly destroyed in the 19th century during the course of the Taiping Rebellion.\n\nIn 2010 Wang Jianlin, a Chinese businessman, donated a billion yuan (US$156 million) to the city of Nanjing for its reconstruction. This is reported to be the largest single personal donation ever made in China. In December 2015, the modern replica and surrounding park opened to the public.\n\nThe Porcelain Tower of Nanjing was designed during the reign of the Yongle Emperor (r. 1402–1424), shortly before its construction in the early 15th century. It was first discovered by the Western world when European travelers like Johan Nieuhof visited it, sometimes listing it as one of the Seven Wonders of the World. After this exposure to the outside world, the tower was seen as a national treasure to both locals and other cultures around the world.\n\nIn 1801, the tower was struck by lightning and the top four stories were knocked off, but it was soon restored. The 1843 book, The Closing Events of the Campaign in China by Granville Gower Loch, contains a detailed description of the tower as it existed in the early 1840s. In the 1850s, the area surrounding the tower erupted in civil war as the Taiping Rebellion reached Nanjing and the rebels took over the city. They smashed the Buddhist images and destroyed the inner staircase to deny the Qing enemy an observation platform. American sailors reached the city in May 1854 and visited the hollowed tower. In 1856, the Taiping destroyed the tower either in order to prevent a hostile faction from using it to observe and shell the city or from superstitious fear of its geomantic properties.[6] After this, the tower's remnants were salvaged for use in other buildings, while the site lay dormant until a recent surge to try to rebuild the landmark.\n\nThe tower was octagonal with a base of about 97 feet (30 m) in diameter. When it was built, the tower was one of the largest buildings in China, rising up to a height of 260 feet (79 m) with nine stories and a staircase in the middle of the pagoda, which spiraled upwards for 184 steps. The top of the roof was marked by a golden pineapple. There were original plans to add more stories, according to an American missionary who in 1852 visited Nanjing. There are only a few Chinese pagodas that surpass its height, such as the still existent 275-foot-tall (84 m) 11th-century Liaodi Pagoda in Hebei or the no longer existent 330-foot-tall (100 m) 7th-century wooden pagoda of Chang'an.\n\nThe tower was built with white porcelain bricks that were said to reflect the sun's rays during the day, and at night as many as 140 lamps were hung from the building to illuminate the tower. Glazes and stoneware were worked into the porcelain and created a mixture of green, yellow, brown and white designs on the sides of the tower, including animals, flowers and landscapes. The tower was also decorated with numerous Buddhist images.",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Nanjing, China",
+				"latitude": 32.0748,
+				"longitude": 118.7247,
+				"pageImage": "porcelain_tower_mini",
+				"popularity": "",
+				"title": "Porcelain Tower of Nanjing",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Popular"],
+				"constructed": "537 AD",
+				"description": "Hagia Sophia (/ˈhɑːɡiə soʊˈfiːə/; from the Greek: Ἁγία Σοφία, pronounced [aˈʝia soˈfia], \"Holy Wisdom\"; Latin: Sancta Sophia or Sancta Sapientia; Turkish: Ayasofya) was a Greek Orthodox Christian patriarchal basilica (church), later an imperial mosque, and now a museum (Ayasofya Müzesi) in Istanbul, Turkey. From the date of its construction in 537 AD, and until 1453, it served as an Eastern Orthodox cathedral and seat of the Patriarch of Constantinople, except between 1204 and 1261, when it was converted by the Fourth Crusaders to a Catholic cathedral under the Latin Empire. The building was later converted into an Ottoman mosque from 29 May 1453 until 1931. It was then secularized and opened as a museum on 1 February 1935. Famous in particular for its massive dome, it is considered the epitome of Byzantine architecture and is said to have \"changed the history of architecture\". It remained the world's largest cathedral for nearly a thousand years, until Seville Cathedral was completed in 1520.\n\nThe current building was originally constructed as a church between 532 and 537 on the orders of the Byzantine Emperor Justinian I and was the third Church of the Holy Wisdom to occupy the site, the previous two having been destroyed by rioters. It was designed by the Greek geometers Isidore of Miletus and Anthemius of Tralles. The church was dedicated to the Wisdom of God, the Logos, the second person of the Trinity, its patronal feast taking place on 25 December, the commemoration of the birth of the incarnation of the Logos in Christ. Although sometimes referred to as Sancta Sophia (as though it were named after Sophia the Martyr), sophia being the phonetic spelling in Latin of the Greek word for wisdom, its full name in Greek is Ναὸς τῆς Ἁγίας τοῦ Θεοῦ Σοφίας, Naos tēs Hagias tou Theou Sophias, \"Shrine of the Holy Wisdom of God\". The church contained a large collection of relics and featured, among other things, a 15-metre (49 ft) silver iconostasis. The focal point of the Eastern Orthodox Church for nearly one thousand years, the building witnessed the excommunication of Patriarch Michael I Cerularius on the part of Humbert of Silva Candida, the papal envoy of Pope Leo IX in 1054, an act that is commonly considered the start of the East–West Schism.\n\nIn 1453, Constantinople was conquered by the Ottoman Empire under Mehmed the Conqueror, who ordered this main church of Orthodox Christianity converted into a mosque. By that point, the church had fallen into a state of disrepair. Nevertheless, the Christian cathedral made a strong impression on the new Ottoman rulers and they decided to convert it into a mosque. The bells, altar, iconostasis, and sacrificial vessels and other relics were destroyed and the mosaics depicting Jesus, his Mother Mary, Christian saints and angels were also destroyed or plastered over. Islamic features—such as the mihrab, minbar, and four minarets—were added. It remained a mosque until 1931, when it was closed to the public for four years. It was re-opened in 1935 as a museum by the Republic of Turkey. Hagia Sophia was, as of 2014, the second-most visited museum in Turkey, attracting almost 3.3 million visitors annually. According to data released by the Turkish Culture and Tourism Ministry, Hagia Sophia was Turkey’s most visited tourist attraction in 2015.\n\nFrom its initial conversion until the construction of the nearby Sultan Ahmed Mosque (Blue Mosque of Istanbul) in 1616, it was the principal mosque of Istanbul. The Byzantine architecture of the Hagia Sophia served as inspiration for many other Ottoman mosques, such as the aforementioned mosque, the Şehzade Mosque, the Süleymaniye Mosque, the Rüstem Pasha Mosque and the Kılıç Ali Pasha Complex.",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Istanbul, Turkey",
+				"latitude": 41.0086,
+				"longitude": 28.9802,
+				"pageImage": "hagia_sophia_mini",
+				"popularity": "3.3 million visitors annually",
+				"title": "Hagia Sophia",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Popular"],
+				"constructed": "1372 AD",
+				"description": "The Leaning Tower of Pisa (Italian: Torre pendente di Pisa) or simply the Tower of Pisa (Torre di Pisa [ˈtorre di ˈpiːza]) is the campanile, or freestanding bell tower, of the cathedral of the Italian city of Pisa, known worldwide for its unintended tilt.\n\nIt is situated behind Pisa's cathedral and is the third oldest structure in the city's Cathedral Square (Piazza del Duomo), after the cathedral and the Pisa Baptistry. The tower's tilt began during construction, caused by an inadequate foundation on ground too soft on one side to properly support the structure's weight. The tilt increased in the decades before the structure was completed and gradually increased until the structure was stabilized (and the tilt partially corrected) by efforts in the late 20th and early 21st centuries.\n\nThe height of the tower is 55.86 metres (183.27 feet) from the ground on the low side and 56.67 metres (185.93 feet) on the high side. The width of the walls at the base is 2.44 m (8 ft 0.06 in). Its weight is estimated at 14,500 metric tons (16,000 short tons). The tower has 296 or 294 steps; the seventh floor has two fewer steps on the north-facing staircase. Prior to restoration work performed between 1990 and 2001, the tower leaned at an angle of 5.5 degrees, but the tower now leans at about 3.99 degrees. This means the top of the tower is displaced horizontally 3.9 metres (12 ft 10 in) from the centre.",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Pisa, Italy",
+				"latitude": 43.7230,
+				"longitude": 10.3966,
+				"pageImage": "leaning_tower_mini",
+				"popularity": "Over 1 million visitors annually",
+				"title": "Leaning Tower of Pisa",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Popular", "New7Wonders"],
+				"constructed": "1632–53",
+				"description": "The Taj Mahal (/ˌtɑːdʒ məˈhɑːl/, more often /ˈtɑːʒ/; meaning Crown of the Palace) is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned 1628–1658), to house the tomb of his favourite wife, Mumtaz Mahal. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.\n\nConstruction of the mausoleum was essentially completed in 1643 but work continued on other phases of the project for another 10 years. The Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost estimated at the time to be around 32 million rupees, which in 2015 would be approximately 52.8 billion rupees (US$827 million). The construction project employed some 20,000 artisans under the guidance of a board of architects led by the court architect to the emperor, Ustad Ahmad Lahauri.\n\nThe Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being \"the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage\". Described by Nobel laureate Rabindranath Tagore as \"the tear-drop on the cheek of time\", it is regarded by many as the best example of Mughal architecture and a symbol of India's rich history. The Taj Mahal attracts 7–8 million visitors a year. In 2007, it was declared a winner of the New7Wonders of the World (2000–2007) initiative.",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Agra, Uttar Pradesh, India",
+				"latitude": 27.1750,
+				"longitude": 78.0422,
+				"pageImage": "listing_tajMahal",
+				"popularity": "7–8 million visitors annually",
+				"title": "Taj Mahal",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Popular"],
+				"constructed": "Between 1176 and 1183 CE",
+				"description": "The Saladin Citadel of Cairo (Arabic: قلعة صلاح الدين‎‎ Qalaʿat Salāḥ ad-Dīn) is a medieval Islamic fortification in Cairo, Egypt. The location, on Mokattam hill near the center of Cairo, was once famous for its fresh breeze and grand views of the city. It is now a preserved historic site, with mosques and museums.\n\nThe Citadel was fortified by the Ayyubid ruler Salah al-Din (Saladin) between 1176 and 1183 CE, to protect it from the Crusaders. Only a few years after defeating the Fatimid Caliphate, Saladin set out to build a wall that would surround both Cairo and Fustat. Saladin is recorded as saying, \"With a wall I will make the two [cities of Cairo and Fustat] into a unique whole, so that one army may defend them both; and I believe it is good to encircle them with a single wall from the bank of the Nile to the bank of the Nile.\" The Citadel would be the centerpiece of the wall. Built on a promontory beneath the Muqattam Hills, a setting that made it difficult to attack, the efficacy of the Citadel's location is further demonstrated by the fact that it remained the heart of Egyptian government until the 19th century. The citadel stopped being the seat of government when Egypt's ruler, Khedive Ismail, moved to his newly built Abdin Palace in the Ismailiya neighborhood in the 1860s. While the Citadel was completed in 1183–1184, the wall Saladin had envisioned was still under construction in 1238, long after his death.\n\nTo supply water to the Citadel, Saladin built the 85-metre (280 ft) deep Well of Joseph (so-called because Saladin's birth name, Yūsif, is the Arabic equivalent of Joseph), which can still be seen today. This well is also known as the Well of the Spiral because its entrance consisted of 300 stairs that wound around the inside of the well. Once water was raised from the well to the surface, it traveled to the Citadel on a series of aqueducts. During the reign of al-Nasir Muhammad, the Well of Joseph failed to produce enough water for the numerous animals and humans then living in the Citadel. To increase the volume of water, Nasir built a well system that consisted of a number of water wheels on the Nile, the water from which was then transported to the wall and subsequently to the Citadel, via the aqueducts Saladin had constructed.\n\nThe improvements to the Citadel's water supply were not Nasir's only additions to the Citadel, which was subject to a number of different additions during the Mamluk period. Nasir's most notable contribution was the Mosque of Nasir. In 1318 Nasir rebuilt the Ayyubid structure, turning it into a mosque in his name. The structure underwent further additions in 1335. Other contributions to the Citadel during Nasir's reign include the structure's southern enclosure (the northern enclosure was completed by Saladin) and the residential area, which included space for the harem and the courtyard. Prior to Nasir's work on the Citadel, the Baybars constructed the Hall of Justice and the \"House of Gold.\"",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Cairo, Egypt",
+				"latitude": 30.0299,
+				"longitude": 31.2608,
+				"pageImage": "cairo_citadel_mini",
+				"popularity": "",
+				"title": "Cairo Citadel",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Popular"],
+				"constructed": "672 AD",
+				"description": "Ely Cathedral is an Anglican cathedral in the English city of Ely, Cambridgeshire.\n\nThe cathedral has its origins in AD 672 when St Etheldreda built an abbey church. The present building dates back to 1083, and cathedral status was granted it in 1109. Until the reformation it was the Church of St Etheldreda and St Peter, at which point it was refounded as the Cathedral Church of the Holy and Undivided Trinity of Ely, continuing as the principal church of the Diocese of Ely, in Cambridgeshire, England. It is the seat of the Bishop of Ely and a suffragan bishop, the Bishop of Huntingdon. Architecturally it is outstanding both for its scale and stylistic details. Having been built in a monumental Romanesque style, the galilee porch, lady chapel and choir were rebuilt in an exuberant Decorated Gothic. Its most famous feature however is the central octagonal tower, with lantern above, which provides a spectacular internal space and, along with the West Tower, gives a unique exterior landmark that dominates the surrounding landscape. Ely Cathedral is a major tourist destination, receiving around 250,000 visitors per year, and sustains a daily pattern of morning and evening services.",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Ely, Cambridgeshire",
+				"latitude": 52.3987,
+				"longitude": 0.2638,
+				"pageImage": "ely_cathedral_mini",
+				"popularity": "250,000 visitors annually",
+				"title": "Ely Cathedral",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Popular"],
+				"constructed": "910 AD",
+				"description": "Cluny Abbey (or Cluni, or Clugny, French pronunciation: ​[klyni]) dedicated to St Peter, is a former Benedictine monastery in Cluny, Saône-et-Loire, France. It was built in the Romanesque style, with three churches built in succession from the 4th to the early 12th centuries. The earliest basilica was the world's largest church until the St. Peter's Basilica construction began in Rome.\n\nCluny was founded by William I, Duke of Aquitaine in 910. He nominated Berno as the first Abbot of Cluny, subject only to Pope Sergius III. The abbey was notable for its stricter adherence to the Rule of St. Benedict, whereby Cluny became acknowledged as the leader of western monasticism. The establishment of the Benedictine Order was a keystone to the stability of European society that was achieved in the 11th century. In 1790 during the French Revolution, the abbey was sacked and mostly destroyed, with only a small part of the Abbey surviving.\n\nStarting around 1334, the Abbots of Cluny maintained a townhouse in Paris known as the Hôtel de Cluny, which has been a public museum since 1843. Apart from the name, it no longer possesses anything originally connected with Cluny.",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Cluny, Saône-et-Loire, France",
+				"latitude": 46.4341,
+				"longitude": 4.6593,
+				"pageImage": "cluny_abbey_mini",
+				"popularity": "",
+				"title": "Cluny Abbey",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "American Society of Civil Engineers"],
+				"constructed": "1994",
+				"description": "The Channel Tunnel (French: Le tunnel sous la Manche; also nicknamed and shortened to Chunnel) is a 50.45-kilometre (31.35 mi) rail tunnel linking Folkestone, Kent, in the United Kingdom, with Coquelles, Pas-de-Calais, near Calais in northern France, beneath the English Channel at the Strait of Dover. At its lowest point, it is 75 m (250 ft) deep below the sea bed, and 115 m (380 ft) below sea level. At 37.9 kilometres (23.5 mi), the tunnel has the longest undersea portion of any tunnel in the world, although the Seikan Tunnel in Japan is both longer overall at 53.85 kilometres (33.46 mi) and deeper at 240 metres (790 ft) below sea level. The speed limit for trains in the tunnel is 160 kilometres per hour (99 mph).\n\nThe tunnel carries high-speed Eurostar passenger trains, the Eurotunnel Shuttle for road vehicles—the largest such transport in the world and international freight trains. The tunnel connects end-to-end with the LGV Nord and High Speed 1 high-speed railway lines.\n\nIdeas for a cross-Channel fixed link appeared as early as 1802, but British political and press pressure over the compromising of national security stalled attempts to construct a tunnel. An early attempt at building a Channel Tunnel was made in the late 19th century, on the English side \"in the hope of forcing the hand of the English Government\". The eventual successful project, organised by Eurotunnel, began construction in 1988 and opened in 1994. At £5.5 billion (1985 prices), it was at the time the most expensive construction project ever proposed. The cost finally came in at £9 billion ($21 billion), well over its predicted budget. Since its construction, the tunnel has faced several problems. Both fires and cold weather have temporarily disrupted its operation. Illegal immigrants have attempted to use the tunnel to enter the UK, causing a minor diplomatic disagreement over the siting of the refugee camp at Sangatte, which was eventually closed in 2002. Migrants have also died attempting to cross through the tunnel.",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "Between United Kingdom and France",
+				"latitude": 51.1045,
+				"longitude": 1.2117,
+				"pageImage": "channel_tunnel_mini",
+				"popularity": "10 million passengers annually",
+				"title": "Channel Tunnel",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "American Society of Civil Engineers"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 43.6426,
+				"longitude": -79.3871,
+				"pageImage": "cn_tower_mini",
+				"popularity": "",
+				"title": "CN Tower",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "American Society of Civil Engineers"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 40.7484,
+				"longitude": 73.9857,
+				"pageImage": "empire_state_mini",
+				"popularity": "",
+				"title": "Empire State Building",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "American Society of Civil Engineers"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 37.8199,
+				"longitude": -122.4783,
+				"pageImage": "listing_ggBridge",
+				"popularity": "",
+				"title": "Golden Gate Bridge",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "American Society of Civil Engineers"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -25.4469,
+				"longitude": -54.5851,
+				"pageImage": "itaipu_mini",
+				"popularity": "",
+				"title": "Itaipu Dam",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "American Society of Civil Engineers"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 52.7,
+				"longitude": 5.21,
+				"pageImage": "delta_works_mini",
+				"popularity": "",
+				"title": "Delta Works/Zuiderzee Works",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "American Society of Civil Engineers", "Seven Wonders of the Industrial World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 9.0096,
+				"longitude": -79.6032,
+				"pageImage": "panama_canal_mini",
+				"popularity": "",
+				"title": "Panama Canal",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "USA Today's New Seven Wonders"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 29.6555,
+				"longitude": 91.1186,
+				"pageImage": "potala_mini",
+				"popularity": "",
+				"title": "Potala Palace",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "USA Today's New Seven Wonders"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 31.7777,
+				"longitude": 35.2325,
+				"pageImage": "listing_Jerusalem",
+				"popularity": "",
+				"title": "Old City of Jerusalem",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "USA Today's New Seven Wonders"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -77.0000,
+				"longitude": 166.0000,
+				"pageImage": "polar_ice_mini",
+				"popularity": "",
+				"title": "Polar ice caps",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "USA Today's New Seven Wonders"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 25.7277,
+				"longitude": -170.4549,
+				"pageImage": "marine_mini",
+				"popularity": "",
+				"title": "Papahānaumokuākea Marine National Monument",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "USA Today's New Seven Wonders"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 19.0019,
+				"longitude": -88.2330,
+				"pageImage": "mayan_mini",
+				"popularity": "",
+				"title": "Mayan Ruins",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "USA Today's New Seven Wonders"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": "",
+				"longitude": "",
+				"pageImage": "migration_mini",
+				"popularity": "",
+				"title": "Great Migration of Serengeti and Masai Mara",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "USA Today's New Seven Wonders",
+							   "Seven Natural Wonders of the World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 36.1128,
+				"longitude": -113.9961,
+				"pageImage": "grandcanyon_mini",
+				"popularity": "",
+				"title": "Grand Canyon",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Natural Wonders of the World",
+							   "Seven Wonders of the Underwater World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -18.2871,
+				"longitude": 147.6992,
+				"pageImage": "listing_barrierReef",
+				"popularity": "",
+				"title": "Great Barrier Reef",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Natural Wonders of the World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -22.9511,
+				"longitude": -43.3580,
+				"pageImage": "rioharbor_mini",
+				"popularity": "",
+				"title": "Harbor of Rio de Janeiro",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Natural Wonders of the World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 27.9878,
+				"longitude": 86.9250,
+				"pageImage": "everest_mini",
+				"popularity": "",
+				"title": "Mount Everest",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Natural Wonders of the World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": "",
+				"longitude": "",
+				"pageImage": "aurora_mini",
+				"popularity": "",
+				"title": "Aurora",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Natural Wonders of the World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 19.4933,
+				"longitude": -102.2514,
+				"pageImage": "volcano_mini",
+				"popularity": "",
+				"title": "Parícutin volcano",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Natural Wonders of the World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -17.9244,
+				"longitude": 25.8559,
+				"pageImage": "victoriafalls_mini",
+				"popularity": "",
+				"title": "Victoria Falls",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 30.3285,
+				"longitude": 35.4444,
+				"pageImage": "petra_mini",
+				"popularity": "",
+				"title": "Petra",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -22.9519,
+				"longitude": -43.2105,
+				"pageImage": "christredeemer_mini",
+				"popularity": "",
+				"title": "Christ the Redeemer",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "maccu_picchu_full",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -13.1631,
+				"longitude": -72.5450,
+				"pageImage": "machupicchu_mini",
+				"popularity": "",
+				"title": "Machu Picchu",
+				"vrMode": "stereo"
+				},
+				{
+				"categories": [
+							   "New7Wonders"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 20.6843,
+				"longitude": -88.5678,
+				"pageImage": "chichenitza_mini",
+				"popularity": "",
+				"title": "Chichen Itza",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders of Nature"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -25.6953,
+				"longitude": -54.4367,
+				"pageImage": "iguazufalls_mini",
+				"popularity": "",
+				"title": "Iguazu Falls",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders of Nature"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 20.9101,
+				"longitude": 107.1839,
+				"pageImage": "listing_halongBay",
+				"popularity": "",
+				"title": "Halong Bay",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders of Nature"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 33.4890,
+				"longitude": 126.4983,
+				"pageImage": "jeju_mini",
+				"popularity": "",
+				"title": "Jeju Island",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders of Nature"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 10.1926,
+				"longitude": 118.9266,
+				"pageImage": "puerto_mini",
+				"popularity": "",
+				"title": "Puerto Princesa Underground River",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders of Nature"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -33.9628,
+				"longitude": 18.4098,
+				"pageImage": "tablemountain_mini",
+				"popularity": "",
+				"title": "Table Mountain",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders of Nature"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -8.5850,
+				"longitude": 119.4411,
+				"pageImage": "komodoisland_mini",
+				"popularity": "",
+				"title": "Komodo Island",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders of Nature"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -3.4653,
+				"longitude": -62.2159,
+				"pageImage": "amazonrainforest_mini",
+				"popularity": "",
+				"title": "Amazon Rainforest",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders Cities"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -29.8587,
+				"longitude": 31.0218,
+				"pageImage": "durban_mini",
+				"popularity": "",
+				"title": "Durban, South Africa",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders Cities"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 17.5705,
+				"longitude": 120.3873,
+				"pageImage": "vigan_mini",
+				"popularity": "",
+				"title": "Vigan, The Philippines",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders Cities"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 23.1136,
+				"longitude": -82.3666,
+				"pageImage": "havana_mini",
+				"popularity": "",
+				"title": "Havana, Cuba",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders Cities"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 3.1390,
+				"longitude": 101.6869,
+				"pageImage": "kualalumpur_mini",
+				"popularity": "",
+				"title": "Kuala Lumpur, Malaysia",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders Cities"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 33.8938,
+				"longitude": 35.5018,
+				"pageImage": "beirut_mini",
+				"popularity": "",
+				"title": "Beirut, Lebanon",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders Cities"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 25.2854,
+				"longitude": 51.5310,
+				"pageImage": "listing_doha",
+				"popularity": "",
+				"title": "Doha, Qatar",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "New7Wonders Cities"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -16.4897,
+				"longitude": -68.1193,
+				"pageImage": "lapaz_mini",
+				"popularity": "",
+				"title": "La Paz, Bolivia",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Underwater World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 7.5150,
+				"longitude": 134.5825,
+				"pageImage": "palau_mini",
+				"popularity": "",
+				"title": "Palau",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Underwater World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 17.3155,
+				"longitude": -87.5344,
+				"pageImage": "belize_mini",
+				"popularity": "",
+				"title": "Belize Barrier Reef",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Underwater World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": "",
+				"longitude": "",
+				"pageImage": "deepseavents_mini",
+				"popularity": "",
+				"title": "Deep-Sea Vents",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Underwater World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": -0.9538,
+				"longitude": -90.9656,
+				"pageImage": "galapagos_mini",
+				"popularity": "",
+				"title": "Galápagos Islands",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Underwater World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 53.5587,
+				"longitude": 108.1650,
+				"pageImage": "listing_lakeBaikal",
+				"popularity": "",
+				"title": "Lake Baikal",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Underwater World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 20.2802,
+				"longitude": 38.5126,
+				"pageImage": "northredsea_mini",
+				"popularity": "",
+				"title": "Northern Red Sea",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Industrial World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": "",
+				"longitude": "",
+				"pageImage": "greateastern_mini",
+				"popularity": "",
+				"title": "SS Great Eastern",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Industrial World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 56.4342,
+				"longitude": -2.3873,
+				"pageImage": "bellrock_mini",
+				"popularity": "",
+				"title": "Bell Rock Lighthouse",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Industrial World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 40.7061,
+				"longitude": -73.9969,
+				"pageImage": "listing_brooklynBridge",
+				"popularity": "",
+				"title": "Brooklyn Bridge",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Industrial World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 51.5301,
+				"longitude": -0.0006,
+				"pageImage": "sewerage_mini",
+				"popularity": "",
+				"title": "London sewerage system",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Industrial World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": "",
+				"longitude": "",
+				"pageImage": "railroad_mini",
+				"popularity": "",
+				"title": "First Transcontinental Railroad",
+				"vrMode": ""
+				},
+				{
+				"categories": [
+							   "Seven Wonders of the Industrial World"],
+				"constructed": "",
+				"description": "",
+				"fullImage": "",
+				"isManMade": true,
+				"isVR": false,
+				"location": "",
+				"latitude": 36.0161,
+				"longitude": -114.7377,
+				"pageImage": "hooverdam_mini",
+				"popularity": "",
+				"title": "Hoover Dam",
+				"vrMode": ""
+				}
+				]
 }

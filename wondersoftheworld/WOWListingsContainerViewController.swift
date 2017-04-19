@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QuartzCore
 
 let kSegueIdentifierPushToDetailView = "pushToWOWDetailView"
 
@@ -24,8 +25,18 @@ class WOWListingsContainerViewController: WOWBaseViewController {
 	
     override func viewDidLoad() {
         super.viewDidLoad()
-
-		title = selectedCategory?.title
+		
+//		title = selectedCategory?.title
+		
+		let titleLabel: UILabel = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: (navigationController?.view.bounds.size.width)! - 144.0, height: 44))
+		titleLabel.text = selectedCategory?.title
+		titleLabel.font = UIFont.boldSystemFont(ofSize: 16.0)
+		titleLabel.backgroundColor = UIColor.clear
+		titleLabel.textColor = UIColor.white
+		titleLabel.adjustsFontSizeToFitWidth = true
+		titleLabel.minimumScaleFactor = 0.5
+		titleLabel.textAlignment = .center
+		navigationItem.titleView = titleLabel
 		
 		navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         pageControl.addTarget(self, action: #selector(WOWListingsContainerViewController.didChangePageControlValue), for: .valueChanged)

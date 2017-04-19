@@ -13,6 +13,11 @@ class WOWDetailHeaderFooterView: UITableViewHeaderFooterView {
 	@IBOutlet weak var contentImageView: UIImageView!
 	@IBOutlet weak var contentLabel: UILabel!
 	
+	override func awakeFromNib() {
+		super.awakeFromNib()
+		contentImageView.clipsToBounds = true
+	}
+	
 	class func classNib() -> UINib {
 		return UINib(nibName: self.classReuseIdentifier(), bundle: nil)
 	}

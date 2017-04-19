@@ -10,11 +10,13 @@ import UIKit
 
 class WOWCategory: NSObject {
 	var title: String?
+	var subtitle: String?
 	var image: String?
 	var index: Int?
 	
 	init(categoryData: Dictionary <String, Any>) {
 		self.title = categoryData["title"] as? String
+		self.subtitle = categoryData["subtitle"] as? String
 		self.image = categoryData["image"] as? String
 		self.index = categoryData["index"] as? Int
 	}

@@ -46,7 +46,17 @@ class WOWDetailViewController: WOWBaseViewController, GCSWidgetViewDelegate, UIT
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
 		
-		title = wonder!.title
+//		title = wonder!.title
+		
+		let titleLabel: UILabel = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: (navigationController?.view.bounds.size.width)! - 144.0, height: 44))
+		titleLabel.text = wonder!.title
+		titleLabel.font = UIFont.boldSystemFont(ofSize: 16.0)
+		titleLabel.backgroundColor = UIColor.clear
+		titleLabel.textColor = UIColor.white
+		titleLabel.adjustsFontSizeToFitWidth = true
+		titleLabel.minimumScaleFactor = 0.5
+		titleLabel.textAlignment = .center
+		navigationItem.titleView = titleLabel
 		
 		panoramaView.delegate = self
 		panoramaView.enableFullscreenButton = true
@@ -105,12 +115,15 @@ class WOWDetailViewController: WOWBaseViewController, GCSWidgetViewDelegate, UIT
 	
 	//MARK: - UITableViewDelegate
 	func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-		return 64.0
+		return 52.0
 	}
 	
 	func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {		
 		
 		let headerView: WOWDetailHeaderFooterView = tableView.dequeueReusableHeaderFooterView(withIdentifier: WOWDetailHeaderFooterView.classReuseIdentifier()) as! WOWDetailHeaderFooterView
+		
+//		headerView.contentView.backgroundColor = UIColor(
+		headerView.contentView.backgroundColor = UIColor.headerFooterColor()
 		
 		switch section {
 			case Int(kDetailTableViewHeaderSectionDescription.value):
@@ -147,7 +160,7 @@ class WOWDetailViewController: WOWBaseViewController, GCSWidgetViewDelegate, UIT
 		let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 		
 		cell.textLabel?.textColor = UIColor.white
-		cell.textLabel?.font = UIFont.init(name: "HelveticaNeue", size: 16.0)
+		cell.textLabel?.font = UIFont.init(name: "HelveticaNeue-Light", size: 15.0)
 		cell.textLabel?.numberOfLines = 0
 		cell.textLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
 		cell.backgroundColor = UIColor.clear
