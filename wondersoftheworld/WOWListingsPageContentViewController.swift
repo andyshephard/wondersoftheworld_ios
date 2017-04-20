@@ -37,6 +37,7 @@ class WOWListingsPageContentViewController: WOWBaseViewController {
 		navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 
 		contentImageView.clipsToBounds = true
+		contentTitleLabel.adjustsFontSizeToFitWidth = true
 		
 		let tapGesture = UITapGestureRecognizer.init(target: self, action: #selector(didTapPageContentView))
 		
