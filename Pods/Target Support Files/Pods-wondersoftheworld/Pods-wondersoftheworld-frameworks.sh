@@ -91,10 +91,12 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MapboxGeocoder.swift/MapboxGeocoder.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/iRate/iRate.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MapboxGeocoder.swift/MapboxGeocoder.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/iRate/iRate.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

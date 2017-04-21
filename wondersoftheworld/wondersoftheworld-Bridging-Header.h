@@ -3,3 +3,4 @@
 //
 
 #import <CardboardSDK/GCSPanoramaView.h>
+#import <iRate/iRate.h>

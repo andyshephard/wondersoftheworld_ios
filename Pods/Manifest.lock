@@ -1,10 +1,12 @@
 PODS:
   - CardboardSDK (0.7.2)
+  - iRate (1.11.7)
   - Mapbox-iOS-SDK (3.4.1)
   - MapboxGeocoder.swift (0.6.0)
 
 DEPENDENCIES:
   - CardboardSDK
+  - iRate
   - Mapbox-iOS-SDK
   - MapboxGeocoder.swift (from `https://github.com/mapbox/MapboxGeocoder.swift.git`)
 
@@ -19,9 +21,10 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   CardboardSDK: 42aa8f9e638515abb5991460c3091edc969027d4
+  iRate: adae3f183d83c925ac42d7a2e86e89e838963f57
   Mapbox-iOS-SDK: 9c0d23e9a3784e6c9e45af4339898e4598b5b09b
   MapboxGeocoder.swift: e43d7bdcec13c4c2529144fcfe4ba0b7fb7eb9ba
 
-PODFILE CHECKSUM: 8fff0cb70724f559718d6cf406b2f7bc12c4b85a
+PODFILE CHECKSUM: 3e344ee73f914054333a0b79b3ca685acef58257
 
 COCOAPODS: 1.2.1
