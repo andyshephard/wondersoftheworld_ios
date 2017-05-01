@@ -23,9 +23,10 @@ class WOWListingsTableViewCell: WOWBaseTableViewCell {
 		cellLabel.adjustsFontSizeToFitWidth = true
     }
 	
-	public func applyGradient() {
+	public func applyGradient(cellWidth: Float) {
 		let gradient: CAGradientLayer = CAGradientLayer.init()
-		gradient.frame = CGRect(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height)
+		gradientView.layer.sublayers?.remove(at: 0)
+		gradient.frame = CGRect(x: 0, y: 0, width: CGFloat(cellWidth), height: self.frame.size.height)
 		gradient.colors = [UIColor.init(colorLiteralRed: 0.0, green: 0.0, blue: 0.0, alpha: 0.4).cgColor, UIColor.clear.cgColor]
 		gradientView.layer.insertSublayer(gradient, at: 0)
 		

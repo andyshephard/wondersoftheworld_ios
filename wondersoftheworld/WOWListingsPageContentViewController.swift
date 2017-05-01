@@ -19,6 +19,7 @@ class WOWListingsPageContentViewController: WOWBaseViewController {
 
 	weak var delegate:WOWListingsPageContentViewControllerDelegate?
 	
+	var cellWidth: Float?
 	public var tag: Int?
 	
 	@IBOutlet weak var contentImageView: UIImageView!
@@ -51,12 +52,13 @@ class WOWListingsPageContentViewController: WOWBaseViewController {
 	
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
-		applyGradient()
+		applyGradient(cellWidth: Float(self.view.frame.size.width))
 	}
 	
-	func applyGradient() {
+	func applyGradient(cellWidth: Float) {
 		let gradient: CAGradientLayer = CAGradientLayer.init()
-		gradient.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: gradientView.frame.size.height)
+		gradientView.layer.sublayers?.remove(at: 0)
+		gradient.frame = CGRect(x: 0, y: 0, width: CGFloat(cellWidth), height: gradientView.frame.size.height)
 		gradient.colors = [UIColor.clear.cgColor, UIColor.init(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.9).cgColor]
 		gradientView.layer.insertSublayer(gradient, at: 0)
 	}
@@ -80,4 +82,10 @@ class WOWListingsPageContentViewController: WOWBaseViewController {
 			break
 		}
 	}
+	
+	override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+		cellWidth = Float(size.width)
+		applyGradient(cellWidth: cellWidth!)
+	}
+	
 }

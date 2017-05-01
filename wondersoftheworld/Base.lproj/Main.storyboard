@@ -45,7 +45,7 @@
             <objects>
                 <navigationController id="Epr-pq-o9W" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Settings" image="settings_tab_icon" id="5U9-gm-Fvz"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="V26-V5-BNr">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="V26-V5-BNr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -360,7 +360,7 @@
             <objects>
                 <navigationController id="NBS-cw-wp7" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Listings" image="listings_tab_icon" id="vSW-A1-sg4"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="jp8-5t-aZw">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jp8-5t-aZw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -383,7 +383,7 @@
             <objects>
                 <navigationController id="yHG-7K-70O" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Map" image="map_tab_icon" id="tXT-sJ-GuL"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="PZd-r9-p6A">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PZd-r9-p6A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

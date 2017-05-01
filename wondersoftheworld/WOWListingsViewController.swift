@@ -13,6 +13,7 @@ let kSegueIdentifierPushToListingsPageVC = "pushToListingsDetailPageView"
 class WOWListingsViewController: UITableViewController {
 
 	var selectedCategory: WOWCategory?
+	var cellWidth: Float?
 	
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +24,8 @@ class WOWListingsViewController: UITableViewController {
 		
 		// Setup tableView.
 		self.tableView.register(WOWListingsTableViewCell.classNib(), forCellReuseIdentifier: WOWListingsTableViewCell.classReuseIdentifier())
+		
+		cellWidth = Float(self.view.frame.size.width)
 	}
 	
     // MARK: - Table view data source
@@ -53,7 +56,7 @@ class WOWListingsViewController: UITableViewController {
 		cell.cellSubtitleLabel.text = cat.subtitle!
 
 		// Apply the gradient now.
-		cell.applyGradient()
+		cell.applyGradient(cellWidth: cellWidth!)
 		
         return cell
     }
@@ -72,5 +75,10 @@ class WOWListingsViewController: UITableViewController {
 		
 		let vc: WOWListingsContainerViewController = segue.destination as! WOWListingsContainerViewController
 		vc.selectedCategory = selectedCategory
+	}
+	
+	override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+		cellWidth = Float(size.width)
+		self.tableView.reloadData()
 	}
 }

@@ -130,7 +130,6 @@ class WOWDetailViewController: WOWBaseViewController, GCSWidgetViewDelegate, UIT
 		
 		let headerView: WOWDetailHeaderFooterView = tableView.dequeueReusableHeaderFooterView(withIdentifier: WOWDetailHeaderFooterView.classReuseIdentifier()) as! WOWDetailHeaderFooterView
 		
-//		headerView.contentView.backgroundColor = UIColor(
 		headerView.contentView.backgroundColor = UIColor.headerFooterColor()
 		
 		switch section {
