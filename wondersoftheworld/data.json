@@ -180,16 +180,16 @@
 							   "Popular"],
 				"constructed": "3000 BC to 2000 BC",
 				"description": "Stonehenge is a prehistoric monument in Wiltshire, England, 2 miles (3 km) west of Amesbury and 8 miles (13 km) north of Salisbury. Stonehenge consists of ring of standing stones, with each standing stone around 4.1 metres (13 ft) high, 2.1 metres (6 ft 11 in) wide and weighing around 25 tons. The stones are set within earthworks in the middle of the most dense complex of Neolithic and Bronze Age monuments in England, including several hundred burial mounds.\n\nArchaeologists believe it was constructed from 3000 BC to 2000 BC. The surrounding circular earth bank and ditch, which constitute the earliest phase of the monument, have been dated to about 3100 BC. Radiocarbon dating suggests that the first bluestones were raised between 2400 and 2200 BC, although they may have been at the site as early as 3000 BC.\n\nOne of the most famous landmarks in the UK, Stonehenge is regarded as a British cultural icon. It has been a legally protected Scheduled Ancient Monument since 1882 when legislation to protect historic monuments was first successfully introduced in Britain. The site and its surroundings were added to UNESCO's list of World Heritage Sites in 1986. Stonehenge is owned by the Crown and managed by English Heritage; the surrounding land is owned by the National Trust.\n\nStonehenge could have been a burial ground from its earliest beginnings. Deposits containing human bone date from as early as 3000 BC, when the ditch and bank were first dug, and continued for at least another five hundred years.",
-				"fullImage": "",
+				"fullImage": "stonehenge_full",
 				"isManMade": true,
-				"isVR": false,
+				"isVR": true,
 				"location": "Wiltshire, England",
 				"latitude": 51.1789,
 				"longitude": -1.8262,
 				"pageImage": "stonehenge_mini",
 				"popularity": "~ 3,000,000 visitors each year",
 				"title": "Stonehenge",
-				"vrMode": ""
+				"vrMode": "mono"
 				},
 				{
 				"categories": [

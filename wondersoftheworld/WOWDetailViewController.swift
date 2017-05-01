@@ -70,7 +70,15 @@ class WOWDetailViewController: WOWBaseViewController, GCSWidgetViewDelegate, UIT
 		} else {
 			panoramaView.isHidden = true
 			imageView.isHidden = false
-			imageView.image = UIImage.init(named: wonder!.fullImage!)
+			
+			var image: UIImage?
+			if (wonder!.fullImage!.characters.count > 0) {
+				image = UIImage.init(named: wonder!.fullImage!)
+			} else {
+				image = UIImage.init(named: wonder!.pageImage!)
+			}
+			
+			imageView.image = image!
 		}
 		
 		tableView.layoutIfNeeded()

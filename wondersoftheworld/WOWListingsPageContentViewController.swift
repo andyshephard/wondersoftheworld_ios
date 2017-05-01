@@ -29,11 +29,6 @@ class WOWListingsPageContentViewController: WOWBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		
-		let gradient: CAGradientLayer = CAGradientLayer.init()
-		gradient.frame = CGRect.init(origin: CGPoint.zero, size: gradientView.frame.size)
-		gradient.colors = [UIColor.clear.cgColor, UIColor.init(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.9).cgColor]
-		gradientView.layer.insertSublayer(gradient, at: 0)
-		
 		navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 
 		contentImageView.clipsToBounds = true
@@ -53,6 +48,18 @@ class WOWListingsPageContentViewController: WOWBaseViewController {
 		
         // Do any additional setup after loading the view.
     }
+	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		applyGradient()
+	}
+	
+	func applyGradient() {
+		let gradient: CAGradientLayer = CAGradientLayer.init()
+		gradient.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: gradientView.frame.size.height)
+		gradient.colors = [UIColor.clear.cgColor, UIColor.init(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.9).cgColor]
+		gradientView.layer.insertSublayer(gradient, at: 0)
+	}
 	
 	func didTapPageContentView() {
 		delegate?.didTapPageContentViewControllerWithTag(tag: tag!)

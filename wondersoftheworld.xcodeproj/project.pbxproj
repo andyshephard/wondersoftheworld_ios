@@ -269,6 +269,7 @@
 				352AF1251E50ED8C002540C2 /* Resources */,
 				11473D14A3E9150457E88600 /* [CP] Embed Pods Frameworks */,
 				ED3C1944031EC6E2D4074BB5 /* [CP] Copy Pods Resources */,
+				35F1C48C1EB77DF000191796 /* Fabric Install */,
 			);
 			buildRules = (
 			);
@@ -361,6 +362,20 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		35F1C48C1EB77DF000191796 /* Fabric Install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Fabric Install";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 31133779105dcd270dea3c4eff1809993ca1f209 916ad386987034ee58060b657156143dec648a17bedd5e5b4a311d8737d820c3";
 		};
 		ED3C1944031EC6E2D4074BB5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -523,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = CS6N2WWDX9;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = wondersoftheworld/Info.plist;

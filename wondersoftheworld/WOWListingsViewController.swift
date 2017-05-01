@@ -19,13 +19,6 @@ class WOWListingsViewController: UITableViewController {
 		
 		navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 		
-		// Set image as navigation bar title
-//		let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 250, height: 44))
-//		imageView.contentMode = .scaleAspectFit
-//		let image = UIImage(named: "navBarView")
-//		imageView.image = image
-//		self.navigationItem.titleView = imageView
-		
 		self.title = "Listings"
 		
 		// Setup tableView.
@@ -59,6 +52,9 @@ class WOWListingsViewController: UITableViewController {
 		cell.cellLabel.text = cat.title!
 		cell.cellSubtitleLabel.text = cat.subtitle!
 
+		// Apply the gradient now.
+		cell.applyGradient()
+		
         return cell
     }
 

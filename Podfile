@@ -10,4 +10,6 @@ target 'wondersoftheworld' do
   pod 'Mapbox-iOS-SDK'
   pod 'MapboxGeocoder.swift', :git => 'https://github.com/mapbox/MapboxGeocoder.swift.git'
   pod 'iRate'
+  pod 'Fabric'
+  pod 'Crashlytics'
 end

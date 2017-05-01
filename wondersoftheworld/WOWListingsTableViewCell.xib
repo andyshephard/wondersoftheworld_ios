@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,7 +21,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="375" height="239"/>
+                <rect key="frame" x="0.0" y="0.0" width="375" height="239.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="evg-17-WT5">
@@ -54,17 +54,17 @@
                 <constraints>
                     <constraint firstItem="evg-17-WT5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="0Tc-A6-7dG"/>
                     <constraint firstItem="evg-17-WT5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1xA-C4-ekZ"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="QXy-wF-vlu" secondAttribute="trailing" constant="-8" id="2ZU-pd-xse"/>
+                    <constraint firstItem="QXy-wF-vlu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="40i-gg-mci"/>
                     <constraint firstItem="ime-Pc-C2z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="4ij-Or-y7x"/>
                     <constraint firstAttribute="trailingMargin" secondItem="uUj-MB-dtZ" secondAttribute="trailing" constant="16" id="4ri-Nd-dYa"/>
                     <constraint firstItem="MQ3-6z-H3N" firstAttribute="top" secondItem="uUj-MB-dtZ" secondAttribute="bottom" constant="2.5" id="5HU-BQ-u4r"/>
                     <constraint firstAttribute="trailing" secondItem="evg-17-WT5" secondAttribute="trailing" id="6bD-Bh-3j8"/>
                     <constraint firstAttribute="trailingMargin" secondItem="MQ3-6z-H3N" secondAttribute="trailing" constant="16" id="7hX-ag-OrP"/>
-                    <constraint firstItem="QXy-wF-vlu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="AtU-O8-sbi"/>
+                    <constraint firstAttribute="trailing" secondItem="QXy-wF-vlu" secondAttribute="trailing" id="DDi-2V-nWM"/>
                     <constraint firstItem="ime-Pc-C2z" firstAttribute="top" secondItem="uUj-MB-dtZ" secondAttribute="top" constant="-8.5" id="FDG-Ns-JYD"/>
                     <constraint firstAttribute="bottomMargin" secondItem="MQ3-6z-H3N" secondAttribute="bottom" constant="8.5" id="IYG-8T-H0T"/>
                     <constraint firstAttribute="trailing" secondItem="ime-Pc-C2z" secondAttribute="trailing" id="U6W-hX-eug"/>
-                    <constraint firstItem="QXy-wF-vlu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="VmD-J4-2ds"/>
+                    <constraint firstItem="QXy-wF-vlu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="VPh-Z8-zco"/>
                     <constraint firstItem="MQ3-6z-H3N" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="WZO-Fd-QXA"/>
                     <constraint firstAttribute="bottomMargin" secondItem="ime-Pc-C2z" secondAttribute="bottom" constant="-8" id="leW-rq-6Rf"/>
                     <constraint firstItem="uUj-MB-dtZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="oSb-Ca-gT6"/>

@@ -35,8 +35,13 @@ class WOWSettingsViewController: WOWBaseTableViewController, MFMailComposeViewCo
 			}
 			break
 		case 1:
-			// Other apps by developer.
-			showOtherApps()
+			if (indexPath.row == 0) {
+				// Other apps by developer.
+				showOtherApps()
+			} else if (indexPath.row == 1) {
+				// Source Code
+				showSourceCode()
+			}
 			break
 		default:
 			break
@@ -68,6 +73,15 @@ class WOWSettingsViewController: WOWBaseTableViewController, MFMailComposeViewCo
 			self.present(mailComposeViewController, animated: true, completion: nil)
 		} else {
 			self.showSendMailErrorAlert()
+		}
+	}
+	
+	func showSourceCode() {
+		let sourceUrl = URL(string: "https://github.com/andyshephard/wondersoftheworld_ios")
+		let possible = UIApplication.shared.canOpenURL(sourceUrl!)
+		
+		if (possible) {
+			UIApplication.shared.open(sourceUrl!, options: [:], completionHandler: nil)
 		}
 	}
 	
