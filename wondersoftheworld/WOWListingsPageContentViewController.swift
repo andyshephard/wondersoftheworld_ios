@@ -40,11 +40,11 @@ class WOWListingsPageContentViewController: WOWBaseViewController {
 		self.view.addGestureRecognizer(tapGesture)
 		
 		let swipeGestureLeft = UISwipeGestureRecognizer.init(target: self, action: #selector(didSwipeContentView))
-		swipeGestureLeft.direction = UISwipeGestureRecognizerDirection.left
+        swipeGestureLeft.direction = UISwipeGestureRecognizer.Direction.left
 		self.view.addGestureRecognizer(swipeGestureLeft)
 		
 		let swipeGestureRight = UISwipeGestureRecognizer.init(target: self, action: #selector(didSwipeContentView))
-		swipeGestureRight.direction = UISwipeGestureRecognizerDirection.right
+        swipeGestureRight.direction = UISwipeGestureRecognizer.Direction.right
 		self.view.addGestureRecognizer(swipeGestureRight)
 		
         // Do any additional setup after loading the view.
@@ -63,17 +63,17 @@ class WOWListingsPageContentViewController: WOWBaseViewController {
 		gradientView.layer.insertSublayer(gradient, at: 0)
 	}
 	
-	func didTapPageContentView() {
+    @objc func didTapPageContentView() {
 		delegate?.didTapPageContentViewControllerWithTag(tag: tag!)
 	}
 	
-	func didSwipeContentView(gesture: UISwipeGestureRecognizer) {
+    @objc func didSwipeContentView(gesture: UISwipeGestureRecognizer) {
 		switch gesture.direction {
-		case UISwipeGestureRecognizerDirection.left:
+        case UISwipeGestureRecognizer.Direction.left:
 			delegate?.didSwipeNextPage()
 			break
 			
-		case UISwipeGestureRecognizerDirection.right:
+        case UISwipeGestureRecognizer.Direction.right:
 			delegate?.didSwipePreviousPage()
 			break
 			

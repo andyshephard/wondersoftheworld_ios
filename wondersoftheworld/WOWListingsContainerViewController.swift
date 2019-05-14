@@ -42,7 +42,7 @@ class WOWListingsContainerViewController: WOWBaseViewController {
         pageControl.addTarget(self, action: #selector(WOWListingsContainerViewController.didChangePageControlValue), for: .valueChanged)
     }
 
-	func didChangePageControlValue() {
+    @objc func didChangePageControlValue() {
 		listingsPageViewController?.scrollToViewController(index: pageControl.currentPage)
 	}
 

@@ -17,7 +17,7 @@ let kDetailTableViewHeaderSectionLocation = kDetailTableViewHeaderSection(1)
 let kDetailTableViewHeaderSectionPopularity = kDetailTableViewHeaderSection(2)
 let kDetailTableViewHeaderSectionConstructed = kDetailTableViewHeaderSection(3)
 
-class WOWDetailViewController: WOWBaseViewController, GCSWidgetViewDelegate, UITableViewDataSource, UITableViewDelegate {
+class WOWDetailViewController: WOWBaseViewController, GVRWidgetViewDelegate, UITableViewDataSource, UITableViewDelegate {
 	
 	public var wonder: WOWWonder?
 	
@@ -26,7 +26,7 @@ class WOWDetailViewController: WOWBaseViewController, GCSWidgetViewDelegate, UIT
 	@IBOutlet weak var contentViewHeight: NSLayoutConstraint!
 	
 	@IBOutlet weak var imageView: UIImageView!
-	@IBOutlet weak var panoramaView: GCSPanoramaView!
+	@IBOutlet weak var panoramaView: GVRPanoramaView!
 	@IBOutlet weak var tableView: UITableView!
 	
 	override func viewDidLoad() {
@@ -39,17 +39,15 @@ class WOWDetailViewController: WOWBaseViewController, GCSWidgetViewDelegate, UIT
 		
 		imageView.contentMode = .scaleAspectFill
 		imageView.clipsToBounds = true
-		
-		// Do any additional setup after loading the view, typically from a nib.
 	}
 	
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
-		
-//		title = wonder!.title
-		
+
+        guard let uwWonder = wonder else { return }
+
 		let titleLabel: UILabel = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: (navigationController?.view.bounds.size.width)! - 144.0, height: 44))
-		titleLabel.text = wonder!.title
+		titleLabel.text = uwWonder.title
 		titleLabel.font = UIFont.boldSystemFont(ofSize: 16.0)
 		titleLabel.backgroundColor = UIColor.clear
 		titleLabel.textColor = UIColor.white
@@ -62,23 +60,28 @@ class WOWDetailViewController: WOWBaseViewController, GCSWidgetViewDelegate, UIT
 		panoramaView.enableFullscreenButton = true
 		panoramaView.enableCardboardButton = true
 		
-		if wonder!.isVR == true {
+		if uwWonder.isVR == true {
 			panoramaView.isHidden = false
 			imageView.isHidden = true
-			let type: GCSPanoramaImageType = wonder!.vrMode! == "stereo" ? .stereoOverUnder : .mono
+            let type: GVRPanoramaImageType = wonder!.vrMode! == "stereo" ? .stereoOverUnder : .mono
 			panoramaView.load(UIImage.init(named: wonder!.fullImage!), of: type)
 		} else {
 			panoramaView.isHidden = true
 			imageView.isHidden = false
 			
 			var image: UIImage?
-			if (wonder!.fullImage!.characters.count > 0) {
-				image = UIImage.init(named: wonder!.fullImage!)
-			} else {
-				image = UIImage.init(named: wonder!.pageImage!)
-			}
-			
-			imageView.image = image!
+
+            if let imgPath = uwWonder.fullImage {
+                if (imgPath.count > 0) {
+                    image = UIImage.init(named: imgPath)
+                }
+            } else if let pageImgPath = uwWonder.pageImage {
+                if (pageImgPath.count > 0) {
+                    image = UIImage.init(named: pageImgPath)
+                }
+            }
+
+            imageView.image = image!
 		}
 		
 		tableView.layoutIfNeeded()
@@ -91,23 +94,20 @@ class WOWDetailViewController: WOWBaseViewController, GCSWidgetViewDelegate, UIT
 	}
 
 	//MARK: - GCSWidgetViewDelegate
-	func widgetViewDidTap(_ widgetView: GCSWidgetView!) {
+    func widgetViewDidTap(_ widgetView: GVRWidgetView!) {}
 
-	}
-	
-	func widgetView(_ widgetView: GCSWidgetView!, didLoadContent content: Any!) {
-		
-	}
-	
-	func widgetView(_ widgetView: GCSWidgetView!, didChange displayMode: GCSWidgetDisplayMode) {
-		
-		UIApplication.shared.isStatusBarHidden = (displayMode == .fullscreen) || (displayMode == .fullscreenVR)
-		self.navigationController?.setNeedsStatusBarAppearanceUpdate()
-	}
-	
-	func widgetView(_ widgetView: GCSWidgetView!, didFailToLoadContent content: Any!, withErrorMessage errorMessage: String!) {
-		print(errorMessage)
-	}
+    func widgetView(_ widgetView: GVRWidgetView!, didLoadContent content: Any!) {}
+
+    func widgetView(_ widgetView: GVRWidgetView!, didChange displayMode: GVRWidgetDisplayMode) {
+        DispatchQueue.main.async {
+            UIApplication.shared.isStatusBarHidden = (displayMode == .fullscreen) || (displayMode == .fullscreenVR)
+            self.navigationController?.setNeedsStatusBarAppearanceUpdate()
+        }
+    }
+
+    func widgetView(_ widgetView: GVRWidgetView!, didFailToLoadContent content: Any!, withErrorMessage errorMessage: String!) {
+        if let error = errorMessage { print(error) }
+    }
 	
 	//MARK: - UITableViewDataSource
 	func numberOfSections(in tableView: UITableView) -> Int {
@@ -159,7 +159,7 @@ class WOWDetailViewController: WOWBaseViewController, GCSWidgetViewDelegate, UIT
 	}
 	
 	func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-		return UITableViewAutomaticDimension
+        return UITableView.automaticDimension
 	}
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

@@ -75,14 +75,14 @@ class WOWListingsPageViewController: UIPageViewController, WOWListingsPageConten
 	
 	func scrollToViewController(index newIndex: Int) {
 		if let firstViewController = viewControllers?.first,
-			let currentIndex = pages.index(of: firstViewController as! WOWListingsPageContentViewController) {
-			let direction: UIPageViewControllerNavigationDirection = newIndex >= currentIndex ? .forward : .reverse
+            let currentIndex = pages.firstIndex(of: firstViewController as! WOWListingsPageContentViewController) {
+            let direction: UIPageViewController.NavigationDirection = newIndex >= currentIndex ? .forward : .reverse
 			let nextViewController = pages[newIndex]
 			scrollToViewController(viewController: nextViewController, direction: direction)
 		}
 	}
 	
-	private func scrollToViewController(viewController: UIViewController, direction: UIPageViewControllerNavigationDirection = .forward) {
+    private func scrollToViewController(viewController: UIViewController, direction: UIPageViewController.NavigationDirection = .forward) {
 		setViewControllers([viewController], direction: direction, animated: true) { (finished) in
 			self.notifyContainerDelegateOfNewIndex()
 		}
@@ -119,7 +119,7 @@ class WOWListingsPageViewController: UIPageViewController, WOWListingsPageConten
 	
 	func notifyContainerDelegateOfNewIndex() {
 		if let firstViewController = viewControllers?.first,
-			let index = pages.index(of: firstViewController as! WOWListingsPageContentViewController) {
+            let index = pages.firstIndex(of: firstViewController as! WOWListingsPageContentViewController) {
 			
 			// Update the current index.
 			currentIndex = index
@@ -135,7 +135,7 @@ extension WOWListingsPageViewController: UIPageViewControllerDataSource {
 	
 	func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
 		
-		guard let viewControllerIndex = pages.index(of: viewController as! WOWListingsPageContentViewController) else {
+        guard let viewControllerIndex = pages.firstIndex(of: viewController as! WOWListingsPageContentViewController) else {
 			return nil
 		}
 		
@@ -155,7 +155,7 @@ extension WOWListingsPageViewController: UIPageViewControllerDataSource {
 	
 	func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
 		
-		guard let viewControllerIndex = pages.index(of: viewController as! WOWListingsPageContentViewController) else {
+        guard let viewControllerIndex = pages.firstIndex(of: viewController as! WOWListingsPageContentViewController) else {
 			return nil
 		}
 		

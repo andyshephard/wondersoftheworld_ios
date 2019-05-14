@@ -1,37 +1,47 @@
 PODS:
-  - CardboardSDK (0.7.2)
-  - Crashlytics (3.8.4):
-    - Fabric (~> 1.6.3)
-  - Fabric (1.6.11)
-  - iRate (1.11.7)
-  - Mapbox-iOS-SDK (3.5.2)
-  - MapboxGeocoder.swift (0.6.1)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Fabric (1.9.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - GoogleToolboxForMac/Logger (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GTMSessionFetcher/Core (1.2.1)
+  - GVRSDK (1.170.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - iRate (1.12.2)
+  - Mapbox-iOS-SDK (4.10.0)
+  - MapboxGeocoder.swift (0.11.0)
 
 DEPENDENCIES:
-  - CardboardSDK
   - Crashlytics
   - Fabric
+  - GVRSDK
   - iRate
-  - Mapbox-iOS-SDK
-  - MapboxGeocoder.swift (from `https://github.com/mapbox/MapboxGeocoder.swift.git`)
+  - Mapbox-iOS-SDK (~> 4.10)
+  - MapboxGeocoder.swift (~> 0.11)
 
-EXTERNAL SOURCES:
-  MapboxGeocoder.swift:
-    :git: https://github.com/mapbox/MapboxGeocoder.swift.git
-
-CHECKOUT OPTIONS:
-  MapboxGeocoder.swift:
-    :commit: 456abba8bd33087bc995d7708bb8a983c546e70f
-    :git: https://github.com/mapbox/MapboxGeocoder.swift.git
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Crashlytics
+    - Fabric
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - GVRSDK
+    - iRate
+    - Mapbox-iOS-SDK
+    - MapboxGeocoder.swift
 
 SPEC CHECKSUMS:
-  CardboardSDK: 42aa8f9e638515abb5991460c3091edc969027d4
-  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
-  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
-  iRate: adae3f183d83c925ac42d7a2e86e89e838963f57
-  Mapbox-iOS-SDK: d0d58079e56e4eed4f0d8726afdbd49a76de8e5a
-  MapboxGeocoder.swift: da3d0ff3c393d01b5e934cf44a707ca2524d77b4
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  GVRSDK: 690e9ca3e4d6161b84ff25519447ed2f53e0eb0b
+  iRate: 4fc69958788624545e5d050c8ffd20884013c3f1
+  Mapbox-iOS-SDK: 8b1b777de7de373cdf000994c91af101ef886477
+  MapboxGeocoder.swift: b78a3d2f42bef7d51edbb2444768634e5de722db
 
-PODFILE CHECKSUM: 9bbe1779bc68db2612f44bb11343c39ba26d58f5
+PODFILE CHECKSUM: c2598cd9e2c874204e85f7c96f42b78a00aeefbc
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.1

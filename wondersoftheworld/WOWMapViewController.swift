@@ -34,10 +34,9 @@ class WOWMapViewController: WOWBaseViewController, MGLMapViewDelegate {
 	}
 	
 	func setupMap() {
-		
-//		mapView.styleURL = NSURL(string: "mapbox://styles/mapbox/satellite-v9") as URL!
+
 		mapView.delegate = self
-		geocoder = Geocoder(accessToken: MGLAccountManager.accessToken()!)
+        geocoder = Geocoder(accessToken: MGLAccountManager.accessToken)
 	}
 	
 	func setupPlacemarks() {

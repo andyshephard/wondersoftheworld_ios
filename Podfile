@@ -6,9 +6,10 @@ target 'wondersoftheworld' do
   use_frameworks!
 
   # Pods for wondersoftheworld
-  pod 'CardboardSDK'
-  pod 'Mapbox-iOS-SDK'
-  pod 'MapboxGeocoder.swift', :git => 'https://github.com/mapbox/MapboxGeocoder.swift.git'
+#  pod 'CardboardSDK'
+  pod 'GVRSDK'
+  pod 'Mapbox-iOS-SDK', '~> 4.10'
+  pod 'MapboxGeocoder.swift', '~> 0.11'
   pod 'iRate'
   pod 'Fabric'
   pod 'Crashlytics'

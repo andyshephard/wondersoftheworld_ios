@@ -27,7 +27,8 @@ class WOWListingsTableViewCell: WOWBaseTableViewCell {
 		let gradient: CAGradientLayer = CAGradientLayer.init()
 		gradientView.layer.sublayers?.remove(at: 0)
 		gradient.frame = CGRect(x: 0, y: 0, width: CGFloat(cellWidth), height: self.frame.size.height)
-		gradient.colors = [UIColor.init(colorLiteralRed: 0.0, green: 0.0, blue: 0.0, alpha: 0.4).cgColor, UIColor.clear.cgColor]
+        gradient.colors = [UIColor.init(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.4).cgColor, UIColor.clear.cgColor]
+//        gradient.colors = [UIColor.init(colorLiteralRed: 0.0, green: 0.0, blue: 0.0, alpha: 0.4).cgColor, UIColor.clear.cgColor]
 		gradientView.layer.insertSublayer(gradient, at: 0)
 		
 		setNeedsLayout()
